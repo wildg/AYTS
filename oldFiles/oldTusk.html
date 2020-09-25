@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AYTS - TUSK</title>
+	
+<!-- Stylesheets -->
+<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="../css/elements.css" rel="stylesheet">
+<link href="../css/animate.css" rel="stylesheet">
+
+<!-- Javascript files -->
+<script src="../js/jquery-3.4.1.min.js"></script>
+	
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<script src="../js/popper.min.js"></script> 
+<script src="../js/bootstrap-4.4.1.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+</head>
+
+<body style="background-color: black">
+
+<header class="dflex-col halfScreen px-4 py-2 m-0">
+	
+	<div class="dflex-row">
+		
+		<div class="dflex-left w-25 dropMenuToggle" onClick="$('.dropMenu').toggleClass('display-off');">
+			<div class="dflex-col dropDown">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		
+		<div class="w-50 dflex-col">
+			<a href="../index.html" id="headerLogo" class="bgImg-contain aytsLogo-black"></a>
+		</div>
+		
+		<div class="w-25"></div>
+		
+	</div>
+	
+	<div class="dropMenu display-off mt-2">
+		
+		<div class="dflex-col titleFont f-0 c-black bg-transparent">
+			<a href="../ibex.html" class="my-2">IBEX</a>
+			<a href="../tusk.html" class="my-2">TUSK</a>
+			<a href="" class="my-2">B2B</a>
+			<a href="../aboutUs.html" class="my-2">ABOUT</a>
+			<a href="" class="my-2">CONTACT</a>
+			<a href="" class="my-2">INVEST</a>
+			<a href="../pdfs/mediaPackage.pdf" class="my-2">MEDIA</a>
+
+			<div class="my-2">
+				<a id="IGG_logos" href="" target="_blank" class="dflex-col">
+					<img id="IGG_black" src="../images/Logos/IGG_Black.png" class="position-absolute" alt="IndieGoGo">
+					<img id="IGG_pink" src="../images/Logos/IGG_Pink.png" class="position-relative" alt="IndieGoGo">
+				</a>
+			</div>
+		</div>
+		
+	</div>
+	
+</header>
+	
+<header class="dflex-row fullscreen px-4 py-2 m-0">
+	
+	<div class="dflex-left w-25">
+		<a href="../index.html" id="headerLogo" class="bgImg-contain aytsLogo-black"></a>
+	</div>
+	
+	<div class="dflex-right w-75 titleFont f-0 c-black bg-transparent">
+		<a href="../ibex.html" class="mx-3 dflex-col headerLink">IBEX</a>
+		<a href="../tusk.html" class="mx-3 dflex-col headerLink">TUSK</a>
+		<a href="" class="mx-3 dflex-col headerLink">B2B</a>
+		<a href="../aboutUs.html" class="mx-3 dflex-col headerLink">ABOUT</a>
+		<a href="" class="mx-3 dflex-col headerLink">CONTACT</a>
+		<a href="" class="mx-3 dflex-col headerLink">INVEST</a>
+		<a href="../pdfs/mediaPackage.pdf" class="mx-3 dflex-col headerLink">MEDIA</a>
+
+		<a id="IGG_logos" href="" target="_blank" class="dflex-col">
+			<img id="IGG_black" src="../images/Logos/IGG_Black.png" class="position-absolute" alt="IndieGoGo">
+			<img id="IGG_pink" src="../images/Logos/IGG_Pink.png" class="position-relative" alt="IndieGoGo">
+		</a>
+	</div>
+	
+</header>
+	
+<!--	Top Billboard	-->
+<section class="billboard-lg mb-5">
+	
+	<div class="banner position-absolute">				
+		<video autoplay muted>
+			<source src="../videos/TUSK_0.mp4" type="video/mp4">
+		</video>
+	</div>
+	
+	<!--	Fade Bottom	-->
+	<div class="dflex-bottom w-100 h-100 position-relative">
+		<div class="w-100 h-25 position-relative bg-gradient-up">
+		</div>
+	</div>
+
+</section>
+	
+<section class="dflex-col c-white bg-transparent px-2 py-4 mb-5">
+		
+	<!--	Title	-->
+	<div class="exanFont f-6 pb-4">TUSK</div>
+	<div class="titleFont f-2 w-75">
+		Complete defense. Complete transparency.
+		<br>
+		World's First Transparent N95 Full Respirator. 
+	</div>
+
+	<div class="row m-0 p-4 w-100">
+
+		<!--	FDA Logo	-->
+		<div class="col-lg-4 p-4 dflex-col w-100">
+			<img src="../images/Logos/FDA_Logo_White.png" class="img-fluid" alt="FDA" style="max-width: 200px">
+		</div>
+
+		<!--	CE Logo	-->
+		<div class="col-lg-4 p-4 dflex-col w-100">
+			<img src="../images/Logos/ce-white.png" class="img-fluid" alt="CE" style="max-width: 100px">
+		</div>
+
+		<!--	NIOSH Logo	-->
+		<div class="col-lg-4 p-4 dflex-col w-100">
+			<img src="../images/Logos/NIOSH_Logo_White.png" class="img-fluid" alt="NIOSH" style="max-width: 200px">
+		</div>
+	</div>
+
+	<div class="subFont f-0">*Modeled with intent to meet above qualifications</div>
+</section>
+
+<section class="billboard-lg mb-5">
+	
+	<div id="tuskBillboard_1" class="bgImg-cover">
+		<div class="dflex-left c-white bg-transparent w-100 h-100 p-4 position-absolute">
+			<div class="dflex-col w-50 h-100">
+				<p class="titleFont f-2">
+<!--
+					<span class="titleFont font-weight-bold">1.</span> N95 + active carbon filter protection 
+					<br>
+					<span class="titleFont font-weight-bold">2.</span> Low profile for reduced CO2 dead space
+					<br>
+					3. High filter area for easy breathing 4. Full comfortable seal
+					<br>
+					5. Removable 3rd head strap for comfortable long term use
+					<br>
+					6. Novel DURO 00-30 nose seal compartment separator + axial support
+					<br>
+-->
+					Proudly designed in <img src="../images/Logos/Canada Leaf.png" style="max-width: 40px">
+				</p>
+			</div>
+		</div>
+		
+		<!--	Fade Bottom	-->
+		<div class="dflex-bottom w-100 h-100 position-relative">
+			<div class="w-100 h-25 position-relative bg-gradient-up">
+			</div>
+		</div>
+
+	</div>
+	
+</section>
+	
+<section class="billboard-lg mb-5">
+	
+	<div id="tuskBillboard_2" class="bgImg-cover">
+		<div class="dflex-right c-white bg-transparent w-100 h-100 p-4 position-absolute">
+			<div class="dflex-col w-50 h-100">
+				
+				<p class="titleFont f-2">Redefining the Full Respirator</p>
+				
+				<span class="subFont f-1 w-75">
+					Lightweight, Transparent, Impact Resistant. So that you can be you. Protect yourself, from every angle.
+				</span>
+				
+			</div>
+		</div>
+		
+		<!--	Fade Bottom	-->
+		<div class="dflex-bottom w-100 h-100 position-relative">
+			<div class="w-100 h-25 position-relative bg-gradient-up">
+			</div>
+		</div>
+
+	</div>
+	
+</section>
+
+<section class="c-white p-4 bg-transparent mb-2">
+	<div class="row w-100 m-0 p-2">
+		
+		<div class="col-xl-3 dflex-col p-2 my-2">
+			<div class="p-0">
+				<img src="../images/Tusk/FaceID.svg" width="100">
+			</div>
+			
+			<div class="subFont f-2 dflex-col" style="min-height: 100px;">
+				Unlock security, securely.
+			</div>
+		</div>
+		
+		<div class="col-xl-3 dflex-col p-2 my-2">
+			<div class="p-0">
+				<img src="../images/Tusk/Tusk_Smile.png" width="100">
+			</div>
+			
+			<div class="subFont f-2 dflex-col" style="min-height: 100px;">
+				Show your emotions, clearly.
+			</div>
+		</div>
+		
+		<div class="col-xl-3 dflex-col p-2 my-2">
+			<div class="p-0">
+				<img src="../images/Tusk/Tusk_Security.png" width="100">
+			</div>
+			
+			<div class="subFont f-2 dflex-col" style="min-height: 100px;">
+				Identify and be yourself.
+			</div>
+		</div>
+		
+		<div class="col-xl-3 dflex-col p-2 my-2">
+			<div class="subFont f-2 dflex-col" style="min-height: 100px;">
+				Communicate with others, transparently.
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="billboard-lg mb-5" style="min-height: 1500px;">
+	
+	<div id="tuskBillboard_3" class="bgImg-cover h-100">
+		<div class="h-100 p-4">
+			<div class="dflex-col c-white bg-transparent h-100">
+				
+				<div class="dflex-top h-50">
+					<p class="titleFont f-2">The sleekest N95 full respirator yet.
+						<br>
+						Reducing CO2 dead space, stylishly.</p>
+				</div>
+				
+				<div class="dflex-bottom w-100 h-50">
+					<span class="subFont f-1">
+						We wanted to redefine the full respirator.
+						<br>
+						That is why our design utilizes a novel geometry which hugs your facial contours.
+						<br>
+						Our profile reduces the total enclosed volume in a full respirator by <b>2X1</b>.
+					</span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+</section>
+
+<section class="table-responsive-lg c-white bg-transparent p-4 mb-5">
+	<div class="dflex-col w-100">
+		<p class="titleFont f-2">
+			We noticed a problem and decided to fix it.
+		</p>
+	</div>
+	
+	<table class="w-100">
+
+		<tr class="w-100 h-100">
+			<th class="w-25 p-3"></th>
+			<th class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100 exanFont f-1">
+					TUSK
+				</div>
+			</th>
+			<th class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100 titleFont f-1">
+					N95 Mask & Face Shield
+				</div>
+			</th>
+			<th class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100 titleFont f-1">
+					N95 Full Standard Respirator
+				</div>
+			</th>
+		</tr>
+		
+		<tr>
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100 subFont f-0">
+					Full Eye and Face Protection
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100 subFont f-0">
+					Lightweight
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100 subFont f-0">
+					Cost Effective
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100 subFont f-0">
+					Suitable For Civilian Use
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100 subFont f-0">
+					Reusable
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100 subFont f-0">
+					Filtration of Inhaled and Exhaled Particles
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+			</td>
+			
+			<td class="w-25 h-100 p-3">
+				<div class="dflex-col w-100 h-100">
+					<div class="tableCircle"></div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</section>
+
+<section class="dflex-col c-white bg-transparent p-4">
+	<img class="img-fluid" src="../images/Tusk/FaceShapes.png">
+	
+	<div class="c-white bg-transparent w-75">
+		<p class="titleFont f-2 pt-4">A Size For Everyone</p>
+		<span class="subFont f-1">We took the most comprehensive anthropometric study from <img src="../images/Logos/NIOSH_Logo_White.png" width="80"> and statistically determined optimal dimensions to parametrically produce 3 unique sizes so that there is a size for everyone.</span>
+	</div>
+
+</section>
+	
+<section class="mb-5">
+	<div class="row w-100 m-0 p-0">
+		
+		<div class="col-lg-8 m-0 p-0">
+			<div class="banner">				
+				<video autoplay muted>
+					<source src="../videos/TUSK_3.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 bg-transparent c-white p-4">
+			<div class="dflex-col w-100 h-100 p-4">
+				
+				<div class="mb-4">
+					<p class="titleFont f-2 font-weight-bold">
+						Not just any filter
+					</p>
+					<span class="subFont f-1">
+						2X High surface area, active carbon, easy install filters per mask. So you can breathe easy.
+					</span>
+				</div>
+				
+					
+				<span class="subFont f-0">
+					High surface area 3/5 layer N95 filter discs to filter inhaled and exhaled air.
+					<br>
+					Active Carbon baffle to adsorb CO2 from inhaled & rebreathed air.
+				</span>
+			</div>
+		</div>
+	</div>
+
+</section>
+	
+<section class="px-2 py-4 dflex-col c-white bg-transparent">
+	<img class="img-fluid" src="../images/Ibex/IBEX_2.png">
+	
+	<p class="titleFont f-2 pt-4">Two 10,000MM<span>&#178;</span> filters.</p>
+	<span class="subFont f-1">So you can breathe easier.</span>
+</section>
+	
+<section class="dflex-col c-white bg-transparent">
+
+	<!--	Filter	-->
+	<div class="row m-0 p-4 w-100">
+
+		<!--	IBEX Filter Image	-->
+		<div class="col-lg-6 p-4 dflex-col w-100">
+			<img class="img-fluid" src="../images/Ibex/IBEX_3.png">
+		</div>
+
+		<!--	Text	-->
+		<div class="col-lg-6 p-4 dflex-col w-100">
+			<span class="titleFont f-2">Die cut filters</span>
+			<span class="subFont f-1 p-4">EXPLENATION HERE</span>
+		</div>
+	</div>
+	
+	<!--	Exhalation	-->
+	<div class="row m-0 p-4 w-100">
+
+		<!--	IBEX Exhalation Image	-->
+		<div class="col-lg-6 p-4 dflex-col w-100">
+			<img class="img-fluid" src="../images/Ibex/IBEX_4.png">
+		</div>
+
+		<!--	Text	-->
+		<div class="col-lg-6 p-4 dflex-col w-100">
+			<span class="titleFont f-2">Optional exhalation valve</span>
+			<span class="subFont f-1 p-4">EXPLENATION HERE</span>
+		</div>
+	</div>
+	
+	<!--	Seal	-->
+	<div class="row m-0 p-4 w-100">
+
+		<!--	IBEX Seal Image	-->
+		<div class="col-lg-6 p-4 dflex-col w-100">
+			<img class="img-fluid" src="../images/Ibex/IBEX_5.png">
+		</div>
+
+		<!--	CE Logo	-->
+		<div class="col-lg-6 p-4 dflex-col w-100">
+			<span class="titleFont f-2">Optional exhalation valve</span>
+			<span class="subFont f-1 p-4">EXPLENATION HERE</span>
+		</div>
+	</div>
+	
+	<!--	Straps	-->
+	<div class="row m-0 py-4 w-100">
+
+		<!--	IBEX Exhalation Image	-->
+		<div class="col-lg-6 m-0 p-0 dflex-left w-100">
+			<img class="img-fluid" src="../images/Ibex/IBEX_6.png" style="min-width: 75%">
+		</div>
+
+		<!--	CE Logo	-->
+		<div class="col-lg-6 p-4 dflex-col w-100">
+			<span class="titleFont f-2 p-4">Elastomeric straps</span>
+			<span class="subFont f-1 p-4">For infinitely adjustable strapping, so you can achieve the perfect fit</span>
+		</div>
+	</div>
+	
+	<!--	Title	-->
+	<div class="titleFont f-6 pb-4">TUSK</div>
+	<div class="titleFont f-2 w-75">The world’s first transparent full face respirator.</div>
+	<div class="subFont f-0 pb-4">*3 sizes available.</div>
+	
+	<div class="dflex-col w-100 h-100 position-relative productImageContainer">
+		
+		<img class="p-0 m-0 w-100" src="../images/Tusk/TUSK_8.png" style="min-width: 900px">
+
+		<div class="position-absolute" style="bottom: 0;">
+			
+			<!--	Buttons	-->
+			<div class="dflex-row">
+				<button href="" class="subFont f-0 mx-1 bg-transparent c-white mb-5">
+					Buy $20
+				</button>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<footer class="dflex-row c-white p-4">
+	<div class="w-100 row m-0 p-1">
+		
+		<div class="col-md-3 w-100 p-1">
+			<div class="dflex-left m-0 w-100 pb-4">
+				<img class="img-fluid" src="../images/Logos/AYTS_Logo_Black.png" style="max-width: 50px">
+			</div>
+			<div class="dflex-left subFont f-0 c-black bg-transparent w-100">
+				© 2020 - 2020
+				<br>
+				All rights reserved
+			</div>
+		</div>
+		
+		<div class="col-md-9 w-100 c-black bg-transparent p-0 m-0">
+		  <div class="row w-100 m-0 p-0">
+				
+				<!--	Products & Services	-->
+				<div class="col-md-3 dflex-top p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Products & Services
+					</div>
+					
+					<a href="../ibex.html" class="w-100 subFont dflex-left f-0">IBEX</a>
+					<a href="../tusk.html" class="w-100 subFont dflex-left f-0">TUSK</a>
+					<a href="" class="w-100 subFont dflex-left f-0">B2B</a>
+					<a href="" class="w-100 subFont dflex-left f-0">IndieGoGo</a>
+				</div>
+				
+				<!--	Company	-->
+				<div class="col-md-3 dflex-top p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Company
+					</div>
+					
+					<a href="../aboutUs.html" class="w-100 subFont dflex-left f-0">About</a>
+					<a href="" class="w-100 subFont dflex-left f-0">Contact</a>
+				</div>
+
+				<!--	Updates	-->
+				<div class="col-md-3 dflex-top m-0 p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Updates
+					</div>
+					
+					<a href="../terms.html" class="w-100 subFont dflex-left f-0">Terms of Service</a>
+					<a href="../privacy.html" class="w-100 subFont dflex-left f-0">Privacy Policy</a>
+				</div>
+				
+				<!--	Follow	-->
+				<div class="col-md-3 dflex-top p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Follow us
+					</div>
+					
+					<div class="dflex-left">
+						<a href="">
+							<img src="../icons/instagram.svg" class="m-1" width="40px" height="40px" alt="Cart">
+						</a>
+
+						<a href="">
+							<img src="../icons/twitter.svg" class="m-1" width="40px" height="40px" alt="Twitter">
+						</a>
+					</div>
+					<div class="dflex-left">
+						<a href="">
+							<img src="../icons/youtube.svg" class="m-1" width="40px" height="40px" alt="Youtube">
+						</a>
+
+						<a href="">
+							<img src="../icons/linkedIn.svg" class="m-1" width="40px" height="40px" alt="LinkedIn">
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</footer>
+	
+</body>
+</html>
