@@ -1,0 +1,303 @@
+.absCenterFlex {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.topDownCenterFlex {
+    display: flex;
+    flex-flow: row wrap;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.topDownCenter {
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.bBorderFade {
+    position: absolute;
+    background: linear-gradient(to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.85) 80%,
+    rgba(255, 255, 255, 0.95) 90%,
+    rgba(255, 255, 255, 1) 100%);
+
+    width: 100%;
+    height: 6em;
+    bottom: 0;
+}
+
+#indieGoGo_empty,
+#indieGoGo_fill {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.indieGoGoHoverFill {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#indieGoGo_fill {
+    opacity: 0;
+}
+
+.indieGoGoHoverFill:hover #indieGoGo_fill {
+    opacity: 1;
+}
+
+.carouselText {
+    height: 10vh;
+}
+
+.carouselImage {
+    height: 70vh;
+}
+
+.carousel-control-next-noArea,
+.carousel-control-prev-noArea {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    opacity: 0.9;
+
+    width: 15%;
+    height: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.carousel-control-prev-noArea {
+    left: 0;
+}
+
+.carousel-control-next-noArea {
+    right: 0;
+}
+
+.carousel-control-next-circle,
+.carousel-control-prev-circle{
+    border-radius: 100em;
+    border: 3px solid #5F8C78;
+
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.carousel-control-next-circle:hover,
+.carousel-control-prev-circle:hover{
+    background-color: #5F8C78;
+}
+
+.carousel-control-next-circle:hover .carousel-control-next-icon-black {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ECECE7' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-circle:hover .carousel-control-prev-icon-black {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ECECE7' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/*  Creating a black version of white carousel control buttons  */
+.carousel-control-prev-icon-black,
+.carousel-control-next-icon-black {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon-black {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%235F8C78' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.carousel-control-next-icon-black {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%235F8C78' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.headerItems {
+    font-family: "Franklin Gothic Book", Helvetica;
+    font-weight: lighter;
+    color: white;
+}
+
+.headerItems:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.pngDropShadow {
+    transition: filter 0.3s ease-in-out 0s;
+}
+
+.pngDropShadow:hover {
+    -webkit-filter: drop-shadow(4px 4px 4px #765B41);
+    filter: drop-shadow(4px 4px 4px #765B41);
+}
+
+.title {
+    position: relative;
+    margin-bottom: auto;
+
+    color: white;
+    font-family: exanregular;
+    font-weight: bold;
+}
+
+#ibexSection:hover .ibexSpin,
+#tuskSection:hover .tuskSpin{
+    opacity: 1;
+}
+
+.ibexSpin,
+.tuskSpin {
+    width: 100%;
+
+    opacity: 0.5;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+/* underlineLink changes the font and adds an underline when hovered on. */
+.underlineLink,
+.productLink,
+.footerText {
+    position: relative;
+    margin-bottom: auto;
+
+    color: white;
+    font-family: exanregular;
+    text-decoration: none;
+}
+
+.productLink {
+    color: #32523D;
+}
+
+/* Underline animation prior to hover. */
+.underlineLink::before,
+.productLink::before,
+.footerText::before {
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 3px;
+    bottom: 5px;
+
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.footerText::before {
+    background-color: #765B41;
+}
+
+.productLink::before {
+    background-color: #32523D;
+}
+
+/* Underline animation after hover. */
+.underlineLink:hover::before,
+.productLink:hover::before,
+.footerText:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.regularButton,
+.productButton{
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 1em;
+    margin-top: auto;
+    padding: 12px 30px;
+
+    color: white;
+    font-family: exanregular;
+    font-weight: bold;
+    font-size: 0.8em;
+
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.productButton {
+    font-weight: bolder;
+
+    border: 3px solid #32523D;
+    color: #32523D;
+}
+
+.regularButton:hover,
+.productButton:hover{
+    background-color: white;
+    border-radius: 0;
+    color: #979392;
+}
+
+.productButton:hover {
+    background-color: #32523D;
+    color: #ECECE7;
+}
+.bgImg {
+    background-size: cover;
+    background-position: center top;
+}
+
+
+.bgImg-large {
+    background-size: 105%;
+    background-position: center top;
+}
+
+.bgImg-left {
+    background-size: cover;
+    background-position: left top;
+}
+
+.bgImg-right {
+    background-size: cover;
+    background-position: right top;
+}
+
+.counter {
+    position: relative;
+    margin-bottom: auto;
+
+    color: white;
+    font-family: exanregular;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/

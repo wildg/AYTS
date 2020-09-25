@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - AYTS</title>
+    <link rel="icon" href="images/AYTS_Logo_Black.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/cleanedWildStyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="fonts/Exan-3/stylesheet.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+    <script src='https://unpkg.com/spritespin@x.x.x/release/spritespin.js' type='text/javascript'></script>
+    <script src="js/bootstrap.min.js" type='text/javascript'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+</head>
+<body style="background-color: #19231A">
+
+<!---------------------------------------  INDIVIDUAL MASK INFORMATION SECTION  --------------------------------------->
+<section class="container-fluid">
+    <div class="row p-1">
+
+        <!-------------------------------------------  IBEX Section (Left)  ------------------------------------------->
+        <div class="col-md-6 p-1">
+            <div id="ibexSection" class="p-4">
+
+                <!--  TOP Text  -->
+                <div class="mb-auto">
+
+                    <!--  TOP Title  -->
+                    <a href="" class="title c-green-light fadeUp" target="_bank">
+                        IBEX
+                    </a>
+
+                    <!--  BOTTOM Subtext  -->
+                    <div class="subtext c-green-light fadeUp">
+                        For maximum comfort and protection
+                    </div>
+
+                </div>
+
+                <!--  CENTER Image  -->
+                <div class="flexCenter-topDown productImageContainer">
+
+                    <!--  TUSK rotating image (Top)  -->
+                    <div class="ibexSpin">
+                    </div>
+
+                    <!--  TUSK right-left arrow svg (Bottom)  -->
+                    <div class="size-05x05 position-absolute" style="bottom: 0">
+                        <img class="cursorRotAnim" src="svg/rotateCursor.svg" alt="Rotate cursor">
+                    </div>
+
+                </div>
+
+                <!--  BOTTOM Button  -->
+                <div class="mt-auto flexCenter-row">
+
+                    <!--  TUSK learn more  -->
+                    <button class="regularButton c-green-light fadeDown m-1">
+                        LEARN MORE
+                    </button>
+
+                    <!--  TUSK learn more  -->
+                    <button class="regularButton c-green-light fadeDown m-2">
+                        BUY NOW $20
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-------------------------------------------  TUSK Section (Right)  ------------------------------------------>
+        <div class="col-md-6 p-1">
+            <div id="tuskSection" class="p-4">
+
+                <!--  TOP Text  -->
+                <div class="mb-auto">
+
+                    <!--  TOP Title  -->
+                    <a href="" class="title c-green-light fadeUp" target="_bank">
+                        TUSK
+                    </a>
+
+                    <!--  BOTTOM Subtext  -->
+                    <div class="subtext c-green-light fadeUp">
+                        For fuller protection
+                    </div>
+
+                </div>
+
+                <!--  CENTER Image  -->
+                <div class="flexCenter-topDown productImageContainer">
+
+                    <!--  TUSK rotating image (Top)  -->
+                    <div class="tuskSpin">
+                    </div>
+
+                    <!--  TUSK right-left arrow svg (Bottom)  -->
+                    <div class="size-05x05 position-absolute" style="bottom: 0">
+                        <img class="cursorRotAnim" src="svg/rotateCursor.svg" alt="Rotate cursor">
+                    </div>
+
+                </div>
+
+                <!--  BOTTOM Button  -->
+                <div class="mt-auto flexCenter-row">
+
+                    <!--  TUSK learn more  -->
+                    <button class="regularButton c-green-light fadeDown m-1">
+                        LEARN MORE
+                    </button>
+
+                    <!--  TUSK learn more  -->
+                    <button class="regularButton c-green-light fadeDown m-2">
+                        BUY NOW $35
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--  Mask Movement JS  -->
+<script type='text/javascript'>
+    $(function() {
+
+        $('.ibexSpin').spritespin({
+            source: [
+                "images/IBEX_360/1.png", "images/IBEX_360/2.png", "images/IBEX_360/3.png", "images/IBEX_360/4.png", "images/IBEX_360/5.png", "images/IBEX_360/6.png", "images/IBEX_360/7.png", "images/IBEX_360/8.png", "images/IBEX_360/9.png", "images/IBEX_360/10.png", "images/IBEX_360/11.png", "images/IBEX_360/12.png", "images/IBEX_360/13.png", "images/IBEX_360/14.png", "images/IBEX_360/15.png", "images/IBEX_360/16.png", "images/IBEX_360/17.png", "images/IBEX_360/18.png", "images/IBEX_360/19.png", "images/IBEX_360/20.png", "images/IBEX_360/21.png", "images/IBEX_360/22.png", "images/IBEX_360/23.png", "images/IBEX_360/24.png", "images/IBEX_360/25.png", "images/IBEX_360/26.png", "images/IBEX_360/27.png", "images/IBEX_360/28.png", "images/IBEX_360/29.png", "images/IBEX_360/30.png", "images/IBEX_360/31.png", "images/IBEX_360/32.png", "images/IBEX_360/33.png", "images/IBEX_360/34.png", "images/IBEX_360/35.png", "images/IBEX_360/36.png", "images/IBEX_360/37.png", "images/IBEX_360/38.png", "images/IBEX_360/39.png", "images/IBEX_360/40.png", "images/IBEX_360/41.png", "images/IBEX_360/42.png", "images/IBEX_360/43.png", "images/IBEX_360/44.png", "images/IBEX_360/45.png", "images/IBEX_360/46.png", "images/IBEX_360/47.png", "images/IBEX_360/48.png", "images/IBEX_360/49.png", "images/IBEX_360/50.png", "images/IBEX_360/51.png", "images/IBEX_360/52.png", "images/IBEX_360/53.png", "images/IBEX_360/54.png", "images/IBEX_360/55.png", "images/IBEX_360/56.png", "images/IBEX_360/57.png", "images/IBEX_360/58.png", "images/IBEX_360/59.png", "images/IBEX_360/60.png", "images/IBEX_360/61.png", "images/IBEX_360/62.png", "images/IBEX_360/63.png", "images/IBEX_360/64.png", "images/IBEX_360/65.png", "images/IBEX_360/66.png", "images/IBEX_360/67.png", "images/IBEX_360/68.png", "images/IBEX_360/69.png", "images/IBEX_360/70.png", "images/IBEX_360/71.png", "images/IBEX_360/72.png", "images/IBEX_360/73.png"
+            ],
+            sense: 1.5,
+            detectSubsampling : false,
+            responsive: true,
+            wrap: true,
+            animate: false,
+            plugins: [
+                '360',
+                'move'
+            ]
+        });
+
+        $('.tuskSpin').spritespin({
+            source: [
+                "images/TUSK_360/1.png", "images/TUSK_360/2.png", "images/TUSK_360/3.png", "images/TUSK_360/4.png", "images/TUSK_360/5.png", "images/TUSK_360/6.png", "images/TUSK_360/7.png", "images/TUSK_360/8.png", "images/TUSK_360/9.png", "images/TUSK_360/10.png", "images/TUSK_360/11.png", "images/TUSK_360/12.png", "images/TUSK_360/13.png", "images/TUSK_360/14.png", "images/TUSK_360/15.png", "images/TUSK_360/16.png", "images/TUSK_360/17.png", "images/TUSK_360/18.png", "images/TUSK_360/19.png", "images/TUSK_360/20.png", "images/TUSK_360/21.png", "images/TUSK_360/22.png", "images/TUSK_360/23.png", "images/TUSK_360/24.png", "images/TUSK_360/25.png", "images/TUSK_360/26.png", "images/TUSK_360/27.png", "images/TUSK_360/28.png", "images/TUSK_360/29.png", "images/TUSK_360/30.png", "images/TUSK_360/31.png", "images/TUSK_360/32.png", "images/TUSK_360/33.png", "images/TUSK_360/34.png", "images/TUSK_360/35.png", "images/TUSK_360/36.png", "images/TUSK_360/37.png", "images/TUSK_360/38.png", "images/TUSK_360/39.png", "images/TUSK_360/40.png", "images/TUSK_360/41.png", "images/TUSK_360/42.png", "images/TUSK_360/43.png", "images/TUSK_360/44.png", "images/TUSK_360/45.png", "images/TUSK_360/46.png", "images/TUSK_360/47.png", "images/TUSK_360/48.png", "images/TUSK_360/49.png", "images/TUSK_360/50.png", "images/TUSK_360/51.png", "images/TUSK_360/52.png", "images/TUSK_360/53.png", "images/TUSK_360/54.png", "images/TUSK_360/55.png", "images/TUSK_360/56.png", "images/TUSK_360/57.png", "images/TUSK_360/58.png", "images/TUSK_360/59.png", "images/TUSK_360/60.png", "images/TUSK_360/61.png", "images/TUSK_360/62.png", "images/TUSK_360/63.png", "images/TUSK_360/64.png", "images/TUSK_360/65.png", "images/TUSK_360/66.png", "images/TUSK_360/67.png", "images/TUSK_360/68.png", "images/TUSK_360/69.png", "images/TUSK_360/70.png", "images/TUSK_360/71.png", "images/TUSK_360/72.png", "images/TUSK_360/73.png"
+            ],
+            sense: 1.5,
+            detectSubsampling : false,
+            responsive: true,
+            wrap: true,
+            animate: false,
+            plugins: [
+                '360',
+                'move'
+            ]
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,677 @@
+/*-------------------------------------------------  SIZE CHANGES  ---------------------------------------------------*/
+
+/*  Size of 100% (width) x 100% (height)  */
+.size-100x100 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/*  Size of 100% (width) x 90% (height)  */
+.size-100x90 {
+    width: 100%;
+    min-height: 90vh;
+}
+
+/*  Size of 100% (width) x 90% (height) absolute  */
+.size-100x90-abs {
+    width: 100%;
+    height: 90vh;
+}
+
+/*  Size of 100% (width) x 80% (height)  */
+.size-100x80 {
+    width: 100%;
+    min-height: 90vh;
+}
+
+/*  Size of 100% (width) x 80% (height) absolute  */
+.size-100x80-abs {
+    width: 100%;
+    height: 90vh;
+}
+
+/*  Size of 100% (width) x 75% (height)  */
+.size-100x75 {
+    width: 100%;
+    min-height: 75vh;
+}
+
+/*  Size of 100% (width) x 75% (height) absolute  */
+.size-100x75-abs {
+    width: 100%;
+    height: 75vh;
+}
+
+/*  Size of 100% (width) x 50% (height)  */
+.size-100x50 {
+    width: 100%;
+    min-height: 50vh;
+}
+
+/*  Size of 100% (width) x 80% (height) absolute  */
+.size-100x10-abs {
+    width: 100%;
+    height: 10vh;
+}
+
+/*  Size of 75% (width) x 90% (height) absolute  */
+.size-75x90-abs {
+    width: 75%;
+    height: 90vh;
+}
+
+/*  Size of 75% (width) x 75% (height)  */
+.size-75x75 {
+    width: 75%;
+    min-height: 75vh;
+}
+
+/*  Size of 75% (width) x 75% (height) absolute  */
+.size-75x75-abs {
+    width: 75%;
+    height: 75vh;
+}
+
+/*  Size of 5% (width) x 5% (height)  */
+.size-05x05 {
+    width: 5%;
+    min-height: 5vh;
+}
+
+/*-------------------------------------------  MARGIN & PADDING CHANGES  ---------------------------------------------*/
+
+/*  Vertical margin of 75vh total  */
+.my-75-vh {
+    margin-bottom: 37.5vh;
+    margin-top: 37.5vh;
+}
+
+/*  Vertical padding of 10vh total  */
+.py-10-vh {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+/*  Top padding of 75vh total  */
+.pt-05-vh {
+    padding-top: 5vh;
+}
+
+/*  Bottom padding of 5vh total  */
+.pb-05-vh {
+    padding-bottom: 5vh;
+}
+
+/*----------------------------------------------  ORIENTATION CHANGES  -----------------------------------------------*/
+
+/*  Center all items in top down orientation  */
+.flexCenter-topDown {
+    display: flex;
+    flex-flow: column;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/*  Center all items in column orientation  */
+.flexCenter-col {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/*  Center all items in row orientation  */
+.flexCenter-row {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/*--------------------------------------------------  TEXT CHANGES  --------------------------------------------------*/
+
+/*  Title is used for all title text of website.  */
+.title {
+    font-family: 'exanregular', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 5vh;
+    line-height: 7vh;
+}
+
+/*  If title is used alongside an "a" tag, then we need an underline animation  */
+a.title {
+    position: relative;
+    text-decoration: none;
+}
+
+/* Underline animation prior to hover. */
+a.title::before{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0.5vh;
+    bottom: 0;
+
+    background-color: #32523D;
+    transform: scaleX(0);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+/* Underline animation after hover. */
+a.title:hover::before{
+    transform: scaleX(1);
+}
+
+/*  Subtext is used for all title bottom text of website.  */
+.subtext {
+    font-weight: lighter;
+    font-size: 3vh;
+    line-height: 3vh;
+
+    background-color: transparent !important;
+}
+
+/*--------------------------------------------------  IMAGE CHANGES  -------------------------------------------------*/
+
+.bgImg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.bgImg-left {
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.bgImg-contain {
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------------------------------  BUTTON CHANGES  -------------------------------------------------*/
+
+/*  Regular button is used generally for most buttons  */
+.regularButton {
+    border: 0.5vh solid white;
+    border-radius: 1em;
+
+    padding: 2vh 5vh;
+
+    font-family: 'exanregular', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 2vh;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/*  Change background color, text color, and border radius of button on hover  */
+.regularButton:hover{
+    background-color: white;
+    color: black;
+}
+
+/*  Sizing button is used for sizing buttons  */
+.sizingButton {
+    border: 0.5vh solid white;
+    border-radius: 1em;
+
+    padding: 1.5vh 1.5vh;
+
+    font-family: 'exanregular', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 2vh;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/*  Change background color, text color, and border radius of button on hover  */
+.sizingButton:hover{
+    background-color: white;
+    color: black;
+}
+
+/*-------------------------------------------------  COLOR CHANGES  --------------------------------------------------*/
+
+/*  GREY COLOR (Standard)  */
+.c-grey {
+    color: #ECECE7;
+    border-color: #ECECE7;
+}
+
+/*  Grey color (Standard) and title changes background color  */
+a.title.c-grey::before {
+    background-color: #ECECE7;
+}
+
+/*  GREEN COLOR (Standard)  */
+.c-green {
+    color: #5F8C78;
+    border-color: #5F8C78;
+}
+
+/*  Green color (Standard) and regular button changes background color and text color  */
+.c-green.regularButton:hover {
+    background-color: #5F8C78;
+    color: white;
+}
+
+/*  Green color (Standard) and sizing button changes background color and text color  */
+.c-green.sizingButton:hover {
+    background-color: #5F8C78;
+    color: white;
+}
+
+/*  Green color (Standard) and title changes background color  */
+a.title.c-green::before {
+    background-color: #5F8C78;
+}
+
+/*  GREEN COLOR (Light)  */
+.c-green-light {
+    color: #7C8D74;
+    border-color: #7C8D74;
+}
+
+/*  Green color (Light) and regular button changes background color and text color  */
+.c-green-light.regularButton:hover {
+    background-color: #7C8D74;
+    color: white;
+}
+
+/*  Green color (Light) and sizing button changes background color and text color  */
+.c-green-light.sizingButton:hover {
+    background-color: #7C8D74;
+    color: white;
+}
+
+/*  Green color (Light) and title changes background color  */
+a.title.c-green-light::before {
+    background-color: #7C8D74;
+}
+
+/*  GREEN COLOR (Dark)  */
+.c-green-dark {
+    color: #32523D;
+    border-color: #32523D;
+}
+
+/*  Green color (Dark) and regular button changes background color and text color  */
+.c-green-dark.regularButton:hover {
+    background-color: #32523D;
+    color: white;
+}
+
+/*  Green color (Dark) and sizing button changes background color and text color  */
+.c-green-dark.sizingButton:hover {
+    background-color: #32523D;
+    color: white;
+}
+
+/*  Green color (Dark) and title changes background color  */
+a.title.c-green-dark::before {
+    background-color: #32523D;
+}
+
+/*--------------------------------------------------  ANIMATIONS  ----------------------------------------------------*/
+
+/*  Fade in animation  */
+.fadeIn {
+    opacity: 0;
+
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+/*   Fade in & title changes the delay of animation.   */
+.fadeIn.title {
+    animation-delay: 0.25s;
+}
+
+/*   Fade in & subtext changes the delay of animation.   */
+.fadeIn.subtext {
+    animation-delay: 0.75s;
+}
+
+/*  Fade up animation  */
+.fadeUp {
+    opacity: 0;
+
+    animation: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+/*   Fade up & title changes the delay of animation.   */
+.fadeUp.title {
+    animation-delay: 0.25s;
+}
+
+/*   Fade up & subtext changes the delay of animation.   */
+.fadeUp.subtext {
+    animation-delay: 0.75s;
+}
+
+/*  Fade down animation  */
+.fadeDown {
+    opacity: 0;
+
+    animation: fadeInDown;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+/*   Fade down & regular button changes the delay of animation.   */
+.fadeDown.regularButton {
+    animation-delay: 1.5s;
+}
+
+/*   Fade down & sizing button changes the delay of animation.   */
+.fadeDown.sizingButton {
+    animation-delay: 2.0s;
+}
+
+/*  Fade in right animation  */
+.fadeInRight {
+    opacity: 0;
+
+    animation: fadeInRight;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+/*-------------------------------------------  INDIVIDUAL MASK SECTION  ----------------------------------------------*/
+
+/*  IBEX & TUSK card gradient backgrounds  */
+#ibexSection,
+#tuskSection {
+    position: relative;
+
+    display: flex;
+    flex-flow: column;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 90vh;
+
+    background: radial-gradient(#FFFFFF, #ECECE7);
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+/*  IBEX & TUSK thumbnail border manipulation  */
+#ibexSection:hover,
+#tuskSection:hover {
+    box-shadow: inset 0 0 0 0.5rem rgba(124,141,116,.25);
+}
+
+/*  IBEX & TUSK hover resets the according product spinning animation's opacity  */
+#ibexSection:hover .ibexSpin,
+#tuskSection:hover .tuskSpin{
+    opacity: 1;
+}
+
+/*  IBEX & TUSK spinning image width and opacity set  */
+.ibexSpin,
+.tuskSpin {
+    width: 70vh !important;
+    max-width: 150%;
+
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.productImageContainer {
+    position: relative;
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+}
+
+.productImageContainer:hover {
+    cursor: ew-resize;
+}
+
+.productImageContainer:hover .cursorRotAnim {
+    display: none;
+}
+
+.cursorRotAnim {
+    animation: headShake;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+/*-----------------------------------------------  APPROVED SECTION  -------------------------------------------------*/
+#approvedSection {
+    background-color: #7C8D74;
+}
+
+.approvedCircleWrap {
+    position: relative;
+
+    height: 40vh;
+    width: 40vh;
+
+    background-color: white;
+    overflow: hidden;
+
+    border: none;
+    border-radius: 50%;
+
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.approvedCircleWrap:hover {
+    box-shadow: inset 0 0 0 1vh rgba(124,141,116,.25);
+}
+
+.approvedCircleWrap:hover .approvedCircleTitle {
+    display: none;
+}
+
+.approvedCircleWrap:hover .approvedCircleSub {
+    display: block;
+}
+
+.approvedCircleWrap:hover .approvedCircleBottom {
+    background-position-y: -10px;
+}
+
+.approvedCircleTop,
+.approvedCircleBottom {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+    height: 70%;
+}
+
+.approvedCircleBottom {
+    width: 100%;
+    height: 70%;
+    bottom: 0;
+
+    transition: background-position 0.5s ease-in-out 0s;
+}
+
+.approvedCircleTitle,
+.approvedCircleSub {
+    position: absolute;
+
+    display: block;
+
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s !important;
+}
+
+.approvedCircleTitle {
+    font-size: 4vh;
+    line-height: normal;
+}
+
+.approvedCircleSub {
+    font-style: italic;
+    display: none;
+}
+
+@media screen and (max-width: 1330px) and (max-height: 820px){
+    .approvedCircleWrap {
+        height: 37vh !important;
+        width: 37vh !important;
+    }
+
+    .approvedCircleTitle {
+        font-size: 3.5vh;
+    }
+
+    .approvedCircleSub {
+        font-size: 2.5vh;
+    }
+}
+
+@media screen and (width: 1366px) and (height: 1024px) {
+    .approvedCircleWrap {
+        height: 30vh !important;
+        width: 30vh !important;
+    }
+
+    .approvedCircleSub,
+    .approvedCircleTitle {
+        font-size: 2.3vh;
+    }
+}
+
+/*------------------------------------------------  FUNDED SECTION  --------------------------------------------------*/
+
+#fundedSection {
+    width: 100%;
+    min-height: 90vh;
+
+    background-color: #E7D0B8
+}
+
+#fundedPicture {
+    background-image: url('../images/funded.png');
+
+    height: 90vh;
+    width: 100%;
+}
+
+.indieGoGoHoverFill {
+    width: 20vh;
+}
+
+.indieGoGoHoverFill:hover #indieGoGo_fill {
+    opacity: 1;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#indieGoGo_empty,
+#indieGoGo_fill {
+    top: 0;
+    left: 0;
+
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#indieGoGo_fill {
+    opacity: 0;
+}
+
+@media screen and (max-width: 992px) {
+    #fundedPicture {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #fundedPicture {
+        height: 70vh;
+    }
+
+    .indieGoGoHoverFill {
+        width: 15vh;
+    }
+}
+
+/*-----------------------------------------------------  CART  -------------------------------------------------------*/
+
+.productContainer {
+    position: relative;
+
+    display: flex;
+    flex-flow: column;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 80vh;
+
+    background: radial-gradient(#FFFFFF, #ECECE7);
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.productContainer:hover {
+    box-shadow: inset 0 0 0 0.5rem rgba(124,141,116,.25);
+}
+
+.ibexChosenSize,
+.tuskChosenSize {
+    background-color: #7C8D74;
+    color: white;
+}
+
+/*---------------------------------------------------  ABOUT US  -----------------------------------------------------*/
+
+/*  IBEX & TUSK card gradient backgrounds  */
+.aboutUsPeople {
+    position: relative;
+
+    display: flex;
+    flex-flow: column;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 90vh;
+
+    background: radial-gradient(#FFFFFF, #ECECE7);
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+/*  IBEX & TUSK thumbnail border manipulation  */
+.aboutUsPeople:hover {
+    box-shadow: inset 0 0 0 0.5rem rgba(124,141,116,.25);
+}

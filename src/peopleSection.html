@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People Section - AYTS</title>
+    <link rel="icon" href="images/AYTS_Logo_Black.png">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/Exan-3/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/WildStyle.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!--------------------------------------------  PEOPLE SECTION - OLDEST  ---------------------------------------------->
+<section style="display: none">
+    <div class="container-fluid">
+        <div class="row mx-2">
+
+            <!--  IMAGE of people running  -->
+            <div class="col-md-8 m-0 p-0">
+                <img class="img-fluid w-100" src="images/exercisingPeople_Crop.png">
+            </div>
+
+            <!--  DESCRIPTION of people running  -->
+            <div class="col-md-4 mb-2" style="background-color: #32523D; border-radius: 0.5em; border: 5px #E7D0B8 solid;">
+                <div class="h-100 w-100 absCenterFlex">
+                    <div class="topDownCenterFlex m-0 p-0" style="width: 90%; height: 90%;">
+
+                        <div class="m-0 p-0" >
+                            <!--  PEOPLE title  -->
+                            <h4 class="text-bold pb-2" style="color: white; font-family: exanregular">
+                                DOCTOR SMITH'S EXPERIENCE
+                            </h4>
+
+                            <!--  PEOPLE description  -->
+                            <h6 style="color: white; letter-spacing: 0px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et lorem ultrices tortor
+                                volutpat molestie vel at risus. Quisque sagittis nunc quis justo fermentum, vitae
+                                feugiat risus posuere. Nullam vulputate, velit at consequat egestas, massa nibh
+                                malesuada quam, ut finibus eros felis eget felis. Vivamus sodales convallis mauris.
+                                Aenean id ex nulla. Cras pulvinar consequat neque et euismod. Proin interdum, nulla sed
+                                scelerisque ullamcorper, dui augue fringilla libero, in ornare nulla metus in felis.
+                            </h6>
+                        </div>
+
+                        <!--  PEOPLE button  -->
+                        <button class="button" style="color: white; margin-top: auto">
+                            Learn more
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-----------------------------------------------  PEOPLE SECTION - OLD  ---------------------------------------------->
+<section style="display: none">
+    <div class="container-fluid" style="height: 100vh; width: 100%">
+        <div class="h-100 row mx-2">
+
+            <!--  IMAGE of people running  -->
+            <div class="col-md-8 m-0 p-0 bgImg" style="background-image: url('images/exercisingPeople_Crop.png')">
+            </div>
+
+            <!--  DESCRIPTION of people running  -->
+            <div class="col-md-4 mb-2 cardBorder" style="background-color: #32523D;">
+                <div class="h-100 w-100 absCenterFlex">
+                    <div class="topDownCenterFlex m-0 p-0" style="height: 90%;">
+
+                        <!--  PEOPLE title  -->
+                        <div class="m-0 p-0 mb-auto">
+                            <a href="">
+                                <h3 class="text-bold underlineLink">
+                                    A RUNNER'S EXPERIENCE
+                                </h3>
+                            </a>
+                        </div>
+
+                        <!--  PEOPLE description  -->
+                        <div class="m-0 p-0 absCenterFlex">
+                            <h6 style="color: white;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et lorem ultrices tortor
+                                volutpat molestie vel at risus. Quisque sagittis nunc quis justo fermentum, vitae
+                                feugiat risus posuere. Nullam vulputate, velit at consequat egestas, massa nibh
+                                malesuada quam, ut finibus eros felis eget felis. Vivamus sodales convallis mauris.
+                            </h6>
+                        </div>
+
+                        <!--  PEOPLE information button  -->
+                        <button class="regularButton">
+                            read more
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--------------------------------------------------  PEOPLE SECTION  ------------------------------------------------->
+<section>
+
+    <div class="container-fluid" style="height: 100vh; width: 100%">
+        <div class="h-100 row mx-2">
+
+            <!--  ROTATING IMAGES of people  -->
+            <div class="col-md-8 m-0 p-0 h-100">
+                <div id="peopleCarousel" class="carousel slide h-100" data-interval="false" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#peopleCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#peopleCarousel" data-slide-to="1"></li>
+                        <li data-target="#peopleCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner h-100">
+
+                        <!--  FIRST image  -->
+                        <div class="carousel-item active h-100 bgImg" style="background-image: url('images/exercisingPeople_Crop.png')" alt="First slide">
+                        </div>
+
+                        <!--  SECOND image  -->
+                        <div class="carousel-item h-100 bgImg" style="background-image: url('images/doctor.png')" alt="Second slide">
+                        </div>
+
+                        <!--  THIRD image  -->
+                        <div class="carousel-item h-100 bgImg" style="background-image: url('images/exercisingPeople_Crop.png')" alt="Third slide">
+                        </div>
+
+                    </div>
+
+                    <!--  PREVIOUS button  -->
+                    <a class="carousel-control-prev" href="#peopleCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon-black" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+
+                    <!--  NEXT button  -->
+                    <a class="carousel-control-next" href="#peopleCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon-black" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <!--  DESCRIPTION of people  -->
+            <div class="col-md-4 mb-2 cardBorder" style="background-color: #32523D;">
+                <div class="h-100 w-100 absCenterFlex">
+                    <div class="topDownCenterFlex m-0 p-0" style="height: 90%;">
+
+                        <!--  PEOPLE title  -->
+                        <div class="m-0 p-0 mb-auto">
+                            <h3 class="title">
+                                A RUNNER'S EXPERIENCE
+                            </h3>
+                        </div>
+
+                        <!--  PEOPLE description  -->
+                        <div class="m-0 p-0 absCenterFlex">
+                            <h6 style="color: white;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et lorem ultrices tortor
+                                volutpat molestie vel at risus. Quisque sagittis nunc quis justo fermentum, vitae
+                                feugiat risus posuere. Nullam vulputate, velit at consequat egestas, massa nibh
+                                malesuada quam, ut finibus eros felis eget felis. Vivamus sodales convallis mauris.
+                            </h6>
+                        </div>
+
+                        <!--  PEOPLE information button  -->
+                        <button class="regularButton">
+                            read more
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+</body>
+
+</html>

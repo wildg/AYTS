@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - AYTS</title>
+    <link rel="icon" href="images/AYTS_Logo_Black.png">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/WildStyle.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/Exan-3/stylesheet.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!---------------------------------------  INDIVIDUAL MASK INFORMATION SECTION  --------------------------------------->
+<section class="container-fluid mb-1" style="height:90vh; width: 100%">
+
+    <!--  MASKS section  -->
+    <div class="row m-1 h-100">
+
+        <!--  IBEX section (left)  -->
+        <div id="ibexSection" class="col-md-6 p-1 h-100">
+            <div class="p-3 h-100 topDownCenter" style="background: radial-gradient(#FFFFFF, #ECECE7);">
+
+                <!--  IBEX (top)  -->
+                <div class="mb-auto">
+
+                    <!--  IBEX title  -->
+                    <a href="">
+                        <h3 class="text-bold productLink animated animate__fadeIn" style="animation-delay: 0.5s">
+                            IBEX
+                        </h3>
+                    </a>
+
+                    <!--  IBEX description  -->
+                    <h6 class="animated animate__fadeIn" style="color: #5F8C78; animation-delay: 0.6s">
+                        For maximum comfort and protection
+                    </h6>
+
+                </div>
+
+                <!--  IBEX image  -->
+                <div class="ibexSpin" style="width: 100%">
+                </div>
+
+                <!--  IBEX (bottom)  -->
+                <div class="mt-auto">
+
+                    <!--  IBEX buy button  -->
+                    <button class="productButton animated animate__fadeIn" style="animation-delay: 1.0s">
+                        BUY NOW $5
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--  TUSK section  -->
+        <div id="tuskSection" class="col-md-6 p-1 h-100">
+            <div class="p-3 h-100 topDownCenter" style="background: radial-gradient(#FFFFFF, #ECECE7);">
+
+                <!--  TUSK (top)  -->
+                <div class="mb-auto">
+
+                    <!--  TUSK title  -->
+                    <a href="">
+                        <h3 class="text-bold productLink animated animate__fadeIn" style="animation-delay: 0.5s">
+                            TUSK
+                        </h3>
+                    </a>
+
+                    <!--  TUSK description  -->
+                    <h6 class="animated animate__fadeIn" style="color: #5F8C78; animation-delay: 0.6s">
+                        For fuller protection
+                    </h6>
+
+                </div>
+
+                <!--  TUSK image  -->
+                <div class="tuskSpin" style="width: 100%">
+                </div>
+
+                <!--  TUSK (bottom)  -->
+                <div class="mt-auto">
+
+                    <!--  TUSK buy button  -->
+                    <button class="productButton animated animate__fadeIn" style="animation-delay: 1.0s">
+                        BUY NOW $10
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<script type='text/javascript'>
+    $(function() {
+        $('.ibexSpin').spritespin({
+            source: [
+                "images/IbexMask360/Ibex_00.png",
+                "images/IbexMask360/Ibex_01.png",
+                "images/IbexMask360/Ibex_02.png",
+                "images/IbexMask360/Ibex_03.png",
+                "images/IbexMask360/Ibex_04.png",
+                "images/IbexMask360/Ibex_05.png",
+                "images/IbexMask360/Ibex_06.png",
+                "images/IbexMask360/Ibex_07.png",
+                "images/IbexMask360/Ibex_08.png",
+                "images/IbexMask360/Ibex_09.png",
+                "images/IbexMask360/Ibex_10.png",
+            ],
+            sense: 1,
+            responsive: true,
+            wrap: true,
+            animate: false,
+            plugins: [
+                '360',
+                'move'
+            ]
+        });
+
+        $('.tuskSpin').spritespin({
+            source: [
+                "images/IbexMask360/Ibex_00.png",
+                "images/IbexMask360/Ibex_01.png",
+                "images/IbexMask360/Ibex_02.png",
+                "images/IbexMask360/Ibex_03.png",
+                "images/IbexMask360/Ibex_04.png",
+                "images/IbexMask360/Ibex_05.png",
+                "images/IbexMask360/Ibex_06.png",
+                "images/IbexMask360/Ibex_07.png",
+                "images/IbexMask360/Ibex_08.png",
+                "images/IbexMask360/Ibex_09.png",
+                "images/IbexMask360/Ibex_10.png",
+            ],
+            sense: 2,
+            responsive: true,
+            wrap: true,
+            animate: false,
+            plugins: [
+                '360',
+                'move'
+            ]
+        });
+    });
+</script>
+
+</body>
+</html>
