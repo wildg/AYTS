@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	
+<title>AYTS | The Future in Face Masks</title>
+<meta name="description" content="Designing the world's first fully transparent low profile N95 full respirator. Committed to creating a clearer and cleaner world." />
+<meta name="robots" content="noodp,noydir" />
+<link rel="icon" href="images/Logos/AYTS_Logo_Black.png">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<!-- Google Analytics -->
+<script type="text/plain" cookie-consent="tracking">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-174930523-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- end of Google Analytics-->
+	
+<!-- Stylesheets -->
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="css/elements.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+
+<!--	Cookie consent stylesheet	-->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+<!-- Javascript files -->
+<script src="js/jquery-3.4.1.min.js"></script>
+	
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+<script src="https://unpkg.com/spritespin@x.x.x/release/spritespin.js" type="text/javascript"></script>
+	
+</head>
+	
+<body>
+	
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+	
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000000",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#ffffff",
+      "text": "#000000"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "Ayts uses cookies to ensure you get the best experience.",
+    "dismiss": "Got it",
+    "deny": "Decline",
+    "link": "Learn more.",
+    "href": "https://www.ayts.ca/privacy.html",
+	"target": "_self"
+  }
+});
+</script>
+	
+<header class="dflex-col halfScreen px-4 py-2 m-0">
+	
+	<div class="dflex-row">
+		
+		<div class="dflex-left w-25 dropMenuToggle" onClick="$('.dropMenu').toggleClass('display-off');">
+			<div class="dflex-col dropDown">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		
+		<div class="w-50 dflex-col">
+			<a href="index.html" id="headerLogo" class="bgImg-contain aytsLogo-black"></a>
+		</div>
+		
+		<div class="w-25"></div>
+		
+	</div>
+	
+	<div class="dropMenu display-off mt-2">
+		
+		<div class="dflex-col titleFont f-0 c-black bg-transparent">
+			<a href="ibex.html" class="my-2">IBEX</a>
+			<a href="tusk.html" class="my-2">TUSK</a>
+			<a href="B2B.html" class="my-2">B2B</a>
+			<a href="aboutUs.html" class="my-2">ABOUT</a>
+			<a href="contact.html" class="my-2">CONTACT</a>
+			<a href="invest.html" class="my-2">INVEST</a>
+			<a href="pdfs/mediaPackage.pdf" class="my-2" target="_blank" rel="noopener">MEDIA</a>
+
+			<div class="my-2">
+				<a id="IGG_logos" href="" target="_blank" rel="noopener" class="dflex-col">
+					<img id="IGG_black" src="images/Logos/IGG_Black.png" class="position-absolute" alt="IndieGoGo">
+					<img id="IGG_pink" src="images/Logos/IGG_Pink.png" class="position-relative" alt="IndieGoGo">
+				</a>
+			</div>
+		</div>
+		
+	</div>
+	
+</header>
+	
+<header class="dflex-row fullscreen px-4 py-2 m-0">
+	
+	<div class="dflex-left w-25">
+		<a href="index.html" id="headerLogo" class="bgImg-contain aytsLogo-black"></a>
+	</div>
+	
+	<div class="dflex-right w-75 titleFont f-0 c-black bg-transparent">
+		<a href="ibex.html" class="mx-3 dflex-col headerLink">IBEX</a>
+		<a href="tusk.html" class="mx-3 dflex-col headerLink">TUSK</a>
+		<a href="B2B.html" class="mx-3 dflex-col headerLink">B2B</a>
+		<a href="aboutUs.html" class="mx-3 dflex-col headerLink">ABOUT</a>
+		<a href="contact.html" class="mx-3 dflex-col headerLink">CONTACT</a>
+		<a href="invest.html" class="mx-3 dflex-col headerLink">INVEST</a>
+		<a href="pdfs/mediaPackage.pdf" class="mx-3 dflex-col headerLink">MEDIA</a>
+
+		<a id="IGG_logos" href="" target="_blank" rel="noopener" class="dflex-col">
+			<img id="IGG_black" src="images/Logos/IGG_Black.png" class="position-absolute" alt="IndieGoGo">
+			<img id="IGG_pink" src="images/Logos/IGG_Pink.png" class="position-relative" alt="IndieGoGo">
+		</a>
+	</div>
+	
+</header>
+	
+<!--	Top Billboard	-->
+<section class="billboard-lg">
+				
+	<div class="banner">				
+		<video autoplay muted playsinline>
+			<source src="videos/TUSK_Start.mp4" type="video/mp4">
+		</video>
+
+		<div class="dflex-col w-100 h-100 position-absolute c-white bg-transparent p-4">
+
+			<p class="w-100 exanFont f-6">TUSK</p>
+			<div class="titleFont f-2 w-75 animate__animated animate__fadeIn animate__delay-1s mb-2" style="max-width: 400px;">
+				World's first transparent low profile N95 full respirator.
+			</div>
+			
+			<div class="dflex-row animate__animated animate__fadeIn animate__delay-2s">
+				<a href="tusk.html">
+					<button class="c-white bg-transparent m-1">Learn More</button>
+				</a>
+			</div>
+
+		</div>
+	</div>
+	
+</section>
+	
+<!--	IBEX/TUSK Section	-->
+<section>
+		
+	<!--	TUSK Section	-->
+	<div class="dflex-col w-100 h-100 m-0 p-0">
+		<div class="titleFont f-3 w-75 mt-5" style="max-width: 300px">Protect yourself from all angles.</div>
+
+		<!--	Rotating TUSK	-->
+		<div class="dflex-col w-100 h-100 position-relative mb-2 productImageContainer">
+			<div class="tuskSpin"></div>
+
+			<div class="position-absolute" style="bottom: 0; width: 50px; height: 50px;">
+				<img class="dflex-col rotateIndicator position-absolute" src="icons/rotateCursor.svg">
+			</div>
+		</div>
+
+		<!--	Buttons	-->
+		<div class="dflex-row pb-4">
+			<button href="" class="subFont f-0 mx-1 bg-transparent">
+				IndieGoGo
+			</button>
+
+			<a href="tusk.html">
+				<button class="subFont f-0 mx-1 bg-transparent">
+					Learn More
+				</button>
+			</a>
+		</div>
+
+		<!--	Counters	-->
+		<div class="dflex-col w-100 px-2 pt-4">
+
+			<!--	Design	-->
+			<div class="dflex-col w-100 pb-2 scalingPadding">
+
+				<!--	Text	-->
+				<div class="dflex-left counterRow">
+					<span class="titleFont f-1">Design</span>
+					<span class="dflex-right w-100 subFont f-1 h-100">Completed</span>
+				</div>
+
+				<!--	Meter	-->
+				<div class="counterWrap dflex-left w-100">
+					<div class="w-100 counterFill dflex-left">
+					</div>
+				</div>
+			</div>
+
+			<!--	Prototyping	-->
+			<div class="dflex-col w-100 pb-2 scalingPadding">
+
+				<!--	Text	-->
+				<div class="dflex-left counterRow">
+					<span class="titleFont f-1">Prototype</span>
+					<span class="dflex-right w-100 subFont f-1 h-100">Completed</span>
+				</div>
+
+				<!--	Meter	-->
+				<div class="counterWrap dflex-left m-0 p-0 w-100">
+					<div class="w-100 counterFill dflex-left">
+					</div>
+				</div>
+			</div>
+
+			<!--	Approval	-->
+			<div class="dflex-col w-100 pb-2 scalingPadding">
+
+				<!--	Text	-->
+				<div class="dflex-left counterRow">
+					<span class="titleFont f-1">Approval</span>
+					<span class="dflex-right w-100 subFont f-1 h-100">0%</span>
+				</div>
+
+				<!--	Meter	-->
+				<div class="counterWrap dflex-left w-100">
+					<div class="counterFill dflex-left">
+					</div>
+				</div>
+			</div>
+
+			<!--	Production	-->
+			<div class="dflex-col w-100 pb-2 scalingPadding">
+
+				<!--	Text	-->
+				<div class="dflex-left counterRow">
+					<span class="titleFont f-1">Production</span>
+					<span class="dflex-right w-100 subFont f-1 h-100">0%</span>
+				</div>
+
+				<!--	Meter	-->
+				<div class="counterWrap dflex-left w-100">
+					<div class="counterFill dflex-left">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+</section>
+	
+<!--	Benefits of facemask	-->
+<section class="dflex-col w-100 px-2">
+	<div class="titleFont c-black bg-transparent f-3 p-4">
+	  Benefits of transparent facemasks:
+	</div>
+	
+	<div class="row w-100 m-0 p-2">
+		
+		<!--	Reason #1: Emotional	-->
+		<div class="col-lg-4 bg-transparent c-black p-4">
+			<div class="dflex-col w-100 h-100">
+				
+				<!--	#1 img	-->
+				<img class="img-nums position-relative" src="images/HomePage/num1-black.png" alt="#1">
+				
+				<!--	Text	-->
+				<div class="position-absolute dflex-col">
+					<span class="w-75 subFont f-1 m-0">Show your
+						<span class="font-weight-bold">emotions</span>
+						easily in your day to day.
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<!--	Reason #2	-->
+		<div class="col-lg-4 bg-transparent c-black p-4">
+			<div class="dflex-col w-100 h-100">
+				
+				<!--	#2 img	-->
+				<img class="img-nums position-relative" src="images/HomePage/num2-black.png" alt="#2">
+				
+				<!--	Text	-->
+				<div class="position-absolute dflex-col">
+					<span class="w-75 subFont f-1 m-0">No need to remove mask for
+						<span class="font-weight-bold">security</span> checkpoints.
+				</div>
+			</div>
+		</div>
+		
+		<!--	Reason #3	-->
+		<div class="col-lg-4 bg-transparent c-black p-4">
+			<div class="dflex-col w-100 h-100">
+				
+				<!--	#3 img	-->
+				<img class="img-nums position-relative" src="images/HomePage/num3-black.png" alt="#3">
+				
+				<!--	Text	-->
+				<div class="position-absolute dflex-col">
+					<span class="w-75 subFont f-1 m-0">Help those with
+						<span class="font-weight-bold">disabilities</span>
+						to see you.
+						</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+<!--	People Section	-->
+<section class="billboard-lg p-2">
+	<div id="peopleBillboard" class="carousel slide h-100 cardWrap" data-interval="false">
+		<ol class="carousel-indicators bg-transparent">
+			<li data-target="#peopleBillboard" data-slide-to="0" class="active"></li>
+			<li data-target="#peopleBillboard" data-slide-to="1"></li>
+			<li data-target="#peopleBillboard" data-slide-to="2"></li>
+		</ol>
+		
+		<div class="carousel-inner h-100">
+			<div id="person1" class="carousel-item active bgImg-cover-center">
+			</div>
+			
+			<div id="person2" class="carousel-item bgImg-cover-center">
+			</div>
+			
+			<div id="person3" class="carousel-item bgImg-cover-center">
+			</div>
+		</div>
+		
+		<a class="carousel-control-prev" href="#peopleBillboard" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		
+		<a class="carousel-control-next" href="#peopleBillboard" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+  </div>
+</section>
+	
+<!--	IGG Funding	-->
+<section class="py-2 px-2">
+	
+	<!--	IndieGoGo Funding	-->
+	<div class="dflex-col w-100 py-4 scalingPadding">
+						
+		<!--	Text	-->
+		<div class="dflex-row w-100">
+			<div class="dflex-left w-50">
+				<span class="titleFont f-1">IndieGoGo funding</span>
+			</div>
+			<div class="dflex-right w-50">
+				<span class="subFont f-1">$0 / $500,000</span>
+			</div>
+		</div>
+
+		<!--	Meter	-->
+		<div class="counterWrap dflex-left w-100">
+			<div id="indieGoGoMeter" class="counterFill dflex-left">
+			</div>
+		</div>
+	</div>
+	
+	<div class="w-100 dflex-row my-2">
+		<button href="" class="subFont f-0 mx-1" target="_blank" rel="noopener">IndieGoGo</button>
+		<a href="invest.html">
+			<button class="subFont f-0 mx-1">Invest</button>
+		</a>
+	</div>
+	
+</section>
+	
+	
+<!--	Media Stories	-->
+<section id="mediaSection" class="p-2">
+	<div class="c-black bg-transparent p-4 dflex-col">
+		
+		<!--	Title	-->
+		<div class="titleFont f-3">See our story:</div>
+		
+		<div class="row m-0 p-4 w-100">
+			
+			<!--	CBC Story	-->
+			<div class="col-lg-4 p-4 dflex-col w-100">
+				<a href="" target="_blank" rel="noopener">
+					<img src="images/Logos/CBC.png" class="img-fluid" alt="CBC Logo" style="max-width: 200px">
+				</a>
+			</div>
+			
+			<!--	CBC Story	-->
+			<div class="col-lg-4 p-4 dflex-col w-100">
+				<a href="" target="_blank" rel="noopener">
+					<img src="images/Logos/CBC.png" class="img-fluid" alt="CBC Logo" style="max-width: 200px">
+				</a>
+			</div>
+			
+			<!--	CBC Story	-->
+			<div class="col-lg-4 p-4 dflex-col w-100">
+				<a href="" target="_blank" rel="noopener">
+					<img src="images/Logos/CBC.png" class="img-fluid" alt="CBC Logo" style="max-width: 200px">
+				</a>
+			</div>
+		</div>
+		
+		<span class="subFont f-0 dflex-row">*Get our media package here
+			<a href="pdfs/mediaPackage.pdf" target="_blank" rel="noopener">
+				<img src="images/Logos/pdfSymbol.png" class="mx-2" style="max-width: 30px;" alt="PDF Logo">
+			</a>
+		</span>
+	</div>
+</section>
+
+<footer class="dflex-row c-white p-4">
+	<div class="w-100 row m-0 p-1">
+		
+		<div class="col-md-3 w-100 p-1">
+			<div class="dflex-left m-0 w-100 pb-4">
+				<img class="img-fluid" src="images/Logos/AYTS_Logo_Black.png" style="max-width: 50px">
+			</div>
+			<div class="dflex-left subFont f-0 c-black bg-transparent w-100 pr-5">
+				Ayts Technologies Inc. © 2020
+				<br>
+				All rights reserved
+			</div>
+		</div>
+		
+		<div class="col-md-9 w-100 c-black bg-transparent p-0 m-0">
+		  <div class="row w-100 m-0 p-0">
+				
+				<!--	Products & Services	-->
+				<div class="col-md-3 dflex-top p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Products & Services
+					</div>
+					
+					<a href="ibex.html" class="w-100 subFont dflex-left f-0">IBEX</a>
+					<a href="tusk.html" class="w-100 subFont dflex-left f-0">TUSK</a>
+					<a href="B2B.html" class="w-100 subFont dflex-left f-0">B2B</a>
+					<a href="" class="w-100 subFont dflex-left f-0">IndieGoGo</a>
+				</div>
+				
+				<!--	Company	-->
+				<div class="col-md-3 dflex-top p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Company
+					</div>
+					
+					<a href="aboutUs.html" class="w-100 subFont dflex-left f-0">About</a>
+					<a href="contact.html" class="w-100 subFont dflex-left f-0">Contact</a>
+					<a href="invest.html" class="w-100 subFont dflex-left f-0">Invest</a>
+				</div>
+
+				<!--	Updates	-->
+				<div class="col-md-3 dflex-top m-0 p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Updates
+					</div>
+					
+					<a href="terms.html" class="w-100 subFont dflex-left f-0">Terms of Service</a>
+					<a href="privacy.html" class="w-100 subFont dflex-left f-0">Privacy Policy</a>
+				</div>
+				
+				<!--	Follow	-->
+				<div class="col-md-3 dflex-top p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Follow us
+					</div>
+					
+					<div class="dflex-left">
+						<a href="https://www.instagram.com/ayts.ca/" target="_blank" rel="noopener">
+							<img src="icons/instagram.svg" class="m-1" width="40px" height="40px" alt="Instagram">
+						</a>
+
+						<a href="" target="_blank" rel="noopener">
+							<img src="icons/facebook.svg" class="m-1" width="40px" height="40px" alt="Facebook">
+						</a>
+					</div>
+					
+					<div class="dflex-left">
+						<a href="" target="_blank" rel="noopener">
+							<img src="icons/youtube.svg" class="m-1" width="40px" height="40px" alt="Youtube">
+						</a>
+
+						<a href="https://www.linkedin.com/company/aytsca/" target="_blank" rel="noopener">
+							<img src="icons/linkedIn.svg" class="m-1" width="40px" height="40px" alt="LinkedIn">
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</footer>
+	
+<!--  Mask Movement JS  -->
+<script type="text/javascript">
+    $(function() {
+
+        $('.tuskSpin').spritespin({
+            source: ["images/TUSK_360/1.jpg", "images/TUSK_360/2.jpg", "images/TUSK_360/3.jpg", "images/TUSK_360/4.jpg", "images/TUSK_360/5.jpg", "images/TUSK_360/6.jpg", "images/TUSK_360/7.jpg", "images/TUSK_360/8.jpg", "images/TUSK_360/9.jpg", "images/TUSK_360/10.jpg", "images/TUSK_360/11.jpg", "images/TUSK_360/12.jpg", "images/TUSK_360/13.jpg", "images/TUSK_360/14.jpg", "images/TUSK_360/15.jpg", "images/TUSK_360/16.jpg", "images/TUSK_360/17.jpg", "images/TUSK_360/18.jpg", "images/TUSK_360/19.jpg", "images/TUSK_360/20.jpg", "images/TUSK_360/21.jpg", "images/TUSK_360/22.jpg", "images/TUSK_360/23.jpg", "images/TUSK_360/24.jpg", "images/TUSK_360/25.jpg", "images/TUSK_360/26.jpg", "images/TUSK_360/27.jpg", "images/TUSK_360/28.jpg", "images/TUSK_360/29.jpg", "images/TUSK_360/30.jpg", "images/TUSK_360/31.jpg", "images/TUSK_360/32.jpg", "images/TUSK_360/33.jpg", "images/TUSK_360/34.jpg", "images/TUSK_360/35.jpg", "images/TUSK_360/36.jpg", "images/TUSK_360/37.jpg", "images/TUSK_360/38.jpg", "images/TUSK_360/39.jpg", "images/TUSK_360/40.jpg", "images/TUSK_360/41.jpg", "images/TUSK_360/42.jpg", "images/TUSK_360/43.jpg", "images/TUSK_360/44.jpg", "images/TUSK_360/45.jpg", "images/TUSK_360/46.jpg", "images/TUSK_360/47.jpg", "images/TUSK_360/48.jpg", "images/TUSK_360/49.jpg", "images/TUSK_360/50.jpg", "images/TUSK_360/51.jpg", "images/TUSK_360/52.jpg", "images/TUSK_360/53.jpg", "images/TUSK_360/54.jpg", "images/TUSK_360/55.jpg", "images/TUSK_360/56.jpg", "images/TUSK_360/57.jpg", "images/TUSK_360/58.jpg", "images/TUSK_360/59.jpg", "images/TUSK_360/60.jpg", "images/TUSK_360/61.jpg", "images/TUSK_360/62.jpg", "images/TUSK_360/63.jpg", "images/TUSK_360/64.jpg", "images/TUSK_360/65.jpg", "images/TUSK_360/66.jpg", "images/TUSK_360/67.jpg", "images/TUSK_360/68.jpg", "images/TUSK_360/69.jpg", "images/TUSK_360/70.jpg", "images/TUSK_360/71.jpg", "images/TUSK_360/72.jpg", "images/TUSK_360/73.jpg"],
+            sense: 1.5,
+            detectSubsampling : false,
+            responsive: true,
+            wrap: true,
+            animate: false,
+            plugins: [
+                '360',
+                'move'
+            ]
+        });
+    });
+</script>
+	
+</body>
+</html>
