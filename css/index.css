@@ -1,0 +1,65 @@
+/* CSS Document */
+.spin-wrap {
+	height: 60vh;
+	overflow: hidden;
+	
+	position: relative;
+}
+
+.spin-wrap:hover .rotateCursor {
+	display: none;
+}
+
+.tuskSpin {
+	width: 100vh;
+    max-width: 150% !important;
+}
+
+.tuskSpin:hover {
+	cursor: ew-resize;
+}
+
+.rotateCursor {
+	width: 50px;
+	
+	animation: headShake;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+#person1 {
+	background-image: url("../images/HomePage/Person4.jpg");
+}
+
+#person2 {
+	background-image: url("../images/HomePage/Person5.jpg");
+}
+
+#person3 {
+	background-image: url("../images/HomePage/Person6.jpg");
+}
+
+.nums-img {
+	width: auto;
+	height: 300px;
+	
+	position: relative;
+	opacity: 0;
+}
+
+.story-img {
+	width: auto;
+	height: 250px;
+	
+	opacity: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+	.nums-img {
+		height: 200px;
+	}
+	
+	.story-img {
+		height: 175px;
+	}
+}

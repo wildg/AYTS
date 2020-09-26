@@ -1,0 +1,578 @@
+@import url("../webfonts/Exan/stylesheet.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+	background-color: transparent !important;
+}
+
+a:hover {
+	color: inherit;
+}
+
+/*	------------------------------------------ TEXT ------------------------------------------	*/
+
+.productFont, .titleFont, .subFont {
+	margin: 0;
+	padding: 0;
+}
+
+.productFont {
+	font-family: 'Exan', sans-serif;
+	font-weight: bold;
+	line-height: 1em;
+}
+
+.titleFont {
+	font-family: 'Poppins', sans-serif;
+}
+
+.subFont {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*	@SIZES	*/
+.f-6 {
+	font-size: 130px;
+}
+
+.f-5 {
+	font-size: 48px;
+}
+
+.f-4 {
+	font-size: 32px;
+}
+
+.f-3 {
+	font-size: 24px;
+}
+
+.f-2 {
+	font-size: 16px;
+}
+
+.f-1 {
+	font-size: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+	.f-5 {
+		font-size: 40px;
+	}
+
+	.f-4 {
+		font-size: 28px;
+	}
+
+	.f-3 {
+		font-size: 20px;
+	}
+
+	.f-2 {
+		font-size: 14px;
+	}
+
+	.f-1 {
+		font-size: 0.5em;
+	}
+}
+
+.w-text-max {
+	max-width: 600px;
+}
+
+.w-text-max-sm {
+	max-width: 400px;
+}
+
+/*	------------------------------------------ COLORS ------------------------------------------	*/
+.c-dark-grey {
+	color: #282828;
+}
+
+.bg-dark-grey {
+	background-color: #282828;
+}
+
+.c-light-grey {
+	color: #EFEFEF;
+}
+
+.bg-light-grey {
+	background-color: #EFEFEF;
+}
+
+.c-green {
+	color: #48845E;
+}
+
+.c-blue {
+	color: #018BF4;
+}
+
+.c-img {
+	background-image: url("../images/General/textBg.jpg");
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+a.c-dark-grey:hover {
+	color: #282828;
+}
+
+a.c-light-grey:hover {
+	color: #EFEFEF;
+}
+
+a.c-green:hover {
+	color: #48845E;
+}
+
+a.c-blue:hover {
+	color: #018BF4;
+}
+
+.lnGradient-black-down {
+	width: 100%;
+	top: 0;
+
+	background: linear-gradient(180deg, rgba(0, 0, 0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.lnGradient-black-up {
+	width: 100%;
+	bottom: 0;
+
+	background: linear-gradient(0deg, rgba(0, 0, 0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+/*	------------------------------------------ ORIENTATION ------------------------------------------	*/
+.dflex-col {
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.dflex-top {
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.dflex-bottom {
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: flex-end;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.dflex-row {
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.dflex-left {
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: left;
+}
+
+.dflex-right {
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: flex-end;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: right;
+}
+
+/*	------------------------------------------ SIZES ------------------------------------------	*/
+.p-scaling {
+	padding: 1.5em 3em;
+}
+
+.px-scaling {
+	padding: 0 3em;
+}
+
+.py-scaling {
+	padding: 1.5em 0;
+}
+
+.p-scaling-sm {
+	padding: 0.5em 1em;
+}
+
+@media only screen and (max-width: 767px) {
+	.p-scaling {
+		padding: 1em 2em;
+	}
+	
+	.px-scaling {
+		padding: 0 2em;
+	}
+
+	.py-scaling {
+		padding: 1em 0;
+	}
+}
+
+.smallScreen {
+	display: none;
+}
+
+.largeScreen {
+	display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+	.smallScreen {
+		display: flex;
+	}
+	
+	.largeScreen {
+		display: none;
+	}
+}
+
+.w-max {
+	width: 100%;
+	max-width: 1200px;
+}
+
+.h-3 {
+	height: 3%;
+}
+
+/*	------------------------------------------ IMAGES ------------------------------------------	*/
+.bgImg-cover-center {
+	width: 100%;
+	height: 100%;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bgImg-cover-top {
+	width: 100%;
+	height: 100%;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+/*	------------------------------------------ VIDEOS ------------------------------------------	*/
+.bgVid-wrap {
+	width: 100%;
+	height: 100%;
+	
+	overflow: hidden;
+	
+	position: relative;
+}
+
+.bgVid-wrap video {
+	width: 100%;
+	height: 100%;
+	
+	top: 0;
+	left: 0;
+	
+	object-fit: cover;
+}
+
+/*	------------------------------------------ BILLBOARDS ------------------------------------------	*/
+.billboard-lg {
+	width: 100%;
+	height: 100vh;
+	min-height: 620px;
+}
+
+.billboard-md {
+	width: 100%;
+	height: 50vh;
+	min-height: 310px;
+}
+
+/*	------------------------------------------ SECTION ------------------------------------------	*/
+section {
+	width: 100%;
+}
+
+/*	------------------------------------------ HEADER ------------------------------------------	*/
+header {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	
+	overflow: auto;
+	background-color: white; 
+	
+	padding: 0.5em 1em;
+	
+	z-index: 999;
+}
+
+.headerWhiteSpace {
+	height: 56px;
+}
+
+.header-logo {
+	height: 40px;
+	padding: 0 1em;
+}
+
+.header-links a {
+	padding: 0.25em 0.5em;
+	margin: 0 0.25em;
+	color: #282828;
+
+    text-transform: uppercase;
+}
+
+.header-links a::before {
+	display: block;
+    content: attr(title);
+	font-weight: bold;
+    height: 0;
+    visibility: hidden;
+}
+
+.header-links a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.IGG_wrap:hover .IGG_Pink{
+	display: block;
+}
+
+.IGG_wrap:hover .IGG_Black{
+	display: none;
+}
+
+.IGG_Black, .IGG_Pink {
+	width: 100px;
+}
+
+.IGG_Pink {
+	display: none;
+}
+
+#header-burger div {
+	width: 40px;
+	height: 3px;
+	
+	background-color: #282828;
+	margin: 4px;
+}
+
+#header-burger {
+	height: 40px;
+}
+
+#header-dropdown {
+	opacity: 1;
+	height: 0;
+	overflow: hidden;
+}
+
+#header-dropdown a {
+	padding: 0.5em 0;
+	margin: 0.5em 0;
+}
+
+/*	------------------------------------------ FOOTER ------------------------------------------	*/
+footer {
+	width: 100%;
+	background-color: white; 
+	
+	padding: 1em 2em;
+}
+
+.footer-logo img {
+	height: 60px;
+	padding: 0 1em;
+}
+
+.footer-links a {
+	width: 100%;
+
+	padding: 5px 0;
+	margin: 3px 0;
+}
+
+.footer-links a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footer-text-bottom {
+	padding-bottom: 2px;
+	margin-bottom: 1px;
+}
+
+.footer-socials {
+	margin: 0.5rem;
+}
+
+.footer-socials img {
+	width: 40px;
+	height: 40px;
+}
+
+/*	------------------------------------------ LINKS ------------------------------------------	*/
+.links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	height: 2em;
+	margin: 0 10px;
+	padding: 5px 10px;
+}
+
+.links span {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.bracket {
+	height: 20px;
+	width: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.bracket {
+		height: 15px;
+		width: 15px;
+		
+		padding-top: 0;
+	}
+}
+
+/*	------------------------------------------ COUNTER ------------------------------------------	*/
+.counterWrap {
+	width: 100%;
+	height: 100px;
+
+	font-weight: 300;
+}
+
+.counterEmpty {
+	width: 100%;
+	height: 5px;
+
+	background-color: #EFEFEF;
+
+	left: 0;
+
+	position: relative !important;
+}
+
+.counterFill {
+	background-color: #48845E;
+	height: 5px;
+	position: absolute !important;
+}
+
+.counterFill.twoThird {
+	width: 66%;
+}
+
+.counter-0,
+.counter-33,
+.counter-66,
+.counter-100 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 0;
+	height: 100px;
+	
+	position: absolute !important;
+}
+
+.counter-0 {
+	left: 0;
+}
+
+.counter-33 {
+	left: 33%;
+}
+
+.counter-66 {
+	right: 33%;
+}
+
+.counter-100 {
+	right: 0;
+}
+
+.counterText, .counterWhiteSpace {
+	max-height: 30px;
+	height: 30px;
+}
+
+.counterCircle {
+	width: 40px;
+	height: 40px;
+	
+	background-color: #EFEFEF;
+	border: 5px solid white;
+	border-radius: 50%;
+}
+
+.counterCircle img {
+	width: 30px;
+}
+
+/*	------------------------------------------ CONTACTS ------------------------------------------	*/
+textarea {
+	max-height: 150px;
+}
+
+/*	------------------------------------------ ANIMATIONS ------------------------------------------	*/
+.fadeIn, .fadeIn-Down, .fadeIn-Down-Abs, .fadeIn-Up, .fadeIn-Right {
+	opacity: 0;
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+}
