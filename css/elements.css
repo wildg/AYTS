@@ -1,0 +1,679 @@
+@import url("../webfonts/Montserrat/stylesheet.css");
+@import url("../webfonts/Exan/stylesheet.css");
+@import url("../webfonts/Work_Sans/stylesheet.css");
+@import url("../webfonts/Poppins/stylesheet.css");
+
+/*	General Changes	*/
+body {
+	background-color: white;
+}
+
+a {
+	color: inherit;	
+}
+
+a:hover {
+	color: inherit;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*	Width & wheight changes	*/
+.h-90 {
+	min-height: 90vh;
+}
+
+/*	Text element changes	*/
+.titleFont {
+/*	font-family: "Work Sans";*/
+	font-family: Poppins;
+	font-weight: bold;
+}
+
+.subFont {
+	font-family: Poppins;
+/*	font-family: Montserrat;*/
+}
+
+.exanFont {
+	font-family: Exan;
+}
+
+.f-0 {
+	font-size: 15px;
+}
+
+.f-1 {
+	font-size: 20px;
+}
+
+.f-2 {
+	font-size: 25px;
+}
+
+.f-3 {
+	font-size: 30px;
+}
+
+.f-4 {
+	font-size: 35px;
+}
+
+.f-5 {
+	font-size: 40px;
+}
+
+.f-6 {
+	font-size: 100px;
+	border-spacing: 0;
+	letter-spacing: 0;
+	line-height: 90%;
+}
+
+/*	Color changes	*/
+.c-white {
+	color: #FFFFFF !important;
+	background-color: #FFFFFF;
+}
+
+.c-black {
+	color: #000000 !important;
+	background-color: #000000;
+}
+
+.c-grey {
+	color: #ECECE7 !important;
+	background-color: #ECECE7;
+}
+
+.c-green {
+	color: #7C8D74 !important;
+	background-color: #7C8D74;
+}
+
+.c-green-light {
+	color: #5F8C78 !important;
+	background-color: #5F8C78;
+}
+
+.c-green-dark {
+	color: #32523D !important;
+	background-color: #32523D;
+}
+
+.c-brown {
+	color: #765B41 !important;
+	background-color: #765B41;
+}
+
+.c-brown-light {
+	color: #9DA189;
+	background-color: #9DA189;
+}
+
+.c-img {
+	background-image: url("../images/General/textBg.jpg");
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+/*	Background changes	*/
+.bg-transparent {
+	background-color: transparent;
+}
+
+.bgImg-contain {
+	width: 100%;
+	height: 100%;
+	
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.bgImg-cover {
+	width: 100%;
+	height: 100%;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.bgImg-cover-center {
+	width: 100%;
+	height: 100%;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bgImg-cover-left {
+	width: 100%;
+	height: 100%;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.bgImg-cover-right {
+	width: 100%;
+	height: 100%;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+.bgVid {
+/*	width: 100%;*/
+	min-width: 50%;
+	max-width: 100%;
+	min-height: 100%;
+	position: relative;
+/*	top: 200px;*/
+/*	left: 200px;*/
+/*	right: 740px;*/
+	right: 20%;
+	bottom: 300px;
+/*	opacity: 0.8;*/
+}
+
+@media only screen and (max-width: 767px) {
+	.bgVid {
+		right: 600px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.bgVid {
+		right: 740px;
+	}
+}
+
+/*	Background Gradient	*/
+.bg-gradient-up {
+	background: linear-gradient(0deg, rgba(0, 0, 0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.bg-gradient-down {
+	background: linear-gradient(180deg, rgba(0, 0, 0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.bg-gradient-up-clear {
+	background: linear-gradient(0deg, rgba(227, 227, 227, 1) 0%, rgba(255, 255, 255,0) 100%);
+}
+
+.bg-gradient-down-clear {
+	background: linear-gradient(0deg, rgba(255, 255, 255,0) 0%, rgba(255, 255, 255,1) 100%);
+}
+
+/*	Buttons	*/
+button, .fauxButton {
+	min-height: 50px;
+	min-width: 150px;
+	
+	padding: 10px 30px;
+	
+	border: 3px solid black;
+	border-radius: 30px;
+	
+	background: transparent;
+	color: black;
+}
+
+button:hover, .fauxButton:hover {
+	background-color: black !important;
+	color: white;
+}
+
+button.c-white, .fauxButton.c-white {
+	color: white;
+	border-color: white;
+	background-color: transparent;
+}
+
+button.c-white:hover, .fauxButton.c-white:hover {
+	background-color: white !important;
+	color: black !important;
+}
+
+.indieGoGoButton {
+	border-color: rgb(233, 33, 117);
+	color: rgb(233, 33, 117);
+}
+
+.indieGoGoButton:hover {
+	color: white;
+	background-color: rgb(233, 33, 117) !important;
+}
+
+/*	Arrangement	*/
+.display-off {
+	display: none;
+}
+
+.dflex-col {
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.dflex-top {
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: flex-start;
+	text-align: center;
+}
+
+.dflex-bottom {
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: flex-end;
+	text-align: center;
+}
+
+.dflex-row {
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.dflex-left {
+	display: flex;
+	flex-direction: row;
+	
+	align-items: flex-start;
+	align-content: flex-start;
+	justify-content: flex-start;
+	text-align: left;
+}
+
+.dflex-right {
+	display: flex;
+	flex-direction: row;
+	
+	align-items: flex-end;
+	align-content: flex-end;
+	justify-content: flex-end;
+	text-align: right;
+}
+
+/*	Wrappers	*/
+.cardWrap {
+	width: 100%;
+	min-height: 500px;
+	
+/*	background: radial-gradient(#FFFFFF, #ECECE7);*/
+}
+
+.cardTop {
+	height: 100%;
+}
+
+.cardBottom {
+	height: 100%;
+}
+
+/*	Images	*/
+.aytsLogo-white {
+	background-image: url("../images/Logos/AYTS_Logo_White.png");
+}
+
+.aytsLogo-black {
+	background-image: url("../images/Logos/AYTS_Logo_Black.png");
+}
+
+.scalingPadding {
+	padding-right: 5rem !important;
+	padding-left: 5rem !important;
+}
+
+@media only screen and (max-width: 580px) {
+	.scalingPadding {
+		padding-right: 0 !important;
+		padding-left: 0!important;
+	}
+}
+
+/*	Header	*/
+header {
+	width: 100%;
+	position: fixed;
+	
+	overflow: auto;
+	background-color: white; 
+	
+	top: 0;
+	
+	z-index: 999;
+}
+
+.halfScreen {
+	display: none;
+}
+
+.fullscreen {
+	display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+	.halfScreen {
+		display: block !important;
+	}
+	
+	.fullscreen {
+		display: none !important;
+	}
+}
+
+.halfScreen-lg {
+	display: none;
+}
+
+.fullscreen-lg {
+	display: block;
+}
+
+@media only screen and (max-width: 1070px) {
+	.halfScreen-lg {
+		display: block;
+	}
+
+	.fullscreen-lg {
+		display: none;
+	}
+}
+
+.dropMenuToggle {
+	cursor: pointer;
+}
+
+.dropDown div {
+	width: 30px;
+	height: 3px;
+	
+	margin: 3px 0;
+	
+	background-color: black;
+}
+
+#headerLogo {
+	width: 40px;
+	height: 40px;
+}
+
+.headerLink {
+	height: 40px;
+}
+
+#IGG_logos {
+	height: 40px;
+}
+
+#IGG_black,
+#IGG_pink {
+	width: 120px;
+}
+
+#IGG_pink {
+	opacity: 0;
+}
+
+#IGG_logos:hover #IGG_pink {
+	opacity: 1;
+}
+
+/*	Footer	*/
+#footerLogo {
+	max-width: 60px;
+}
+
+/*	Billboard	*/
+.billboard-lg {
+	width: 100%;
+	max-width: 100%;
+	height: 100vh;
+	min-height: 530px;
+}
+
+.billboard-md {
+	width: 100%;
+	height: 70vh;
+	min-height: 400px;
+}
+
+/*	Counters	*/
+.counterWrap {
+	width: 100%;
+	height: 20px;
+	
+	border: 3px solid black;
+	border-radius: 50px;
+	
+	overflow: hidden;
+}
+
+.counterFill {
+	background-color: black;
+	top: 0;
+	height: 200%;
+}
+
+.counterRow {
+	width: 100%;
+}
+
+/*	----------------------------------------- HOME -----------------------------------------	*/
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+.bannerUnfixed {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.bannerUnfixed video {
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+
+.banner {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner-fluid {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner video {
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+
+.banner .content {
+	position: relative;
+}
+
+.content {
+	position: relative;
+}
+
+/*	Individual Masks	*/
+.ibexSpin,
+.tuskSpin {
+    width: 120vh;
+    max-width: 150% !important;
+}
+
+.ibexSpin:hover,
+.tuskSpin:hover {
+	cursor: ew-resize
+}
+
+.productImageContainer {
+	overflow: hidden;
+}
+
+.productImageContainer:hover .rotateIndicator{
+	display: none;
+}
+
+.rotateIndicator {
+    animation: headShake;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+/*	Benefits to transparency	*/
+.img-nums {
+	max-width: 100%;
+	height: auto;
+	
+	max-height: 30vh;
+	min-height: 200px;
+	
+	opacity: 0.1;
+}
+
+/*	Reasons for transparency	*/
+#num1 {
+	background-image: url("../images/HomePage/num1-white.png");
+}
+
+#num2 {
+	background-image: url("../images/HomePage/num2-white.png");
+}
+
+#num3 {
+	background-image: url("../images/HomePage/num1-white.png");
+}
+
+/*	People Section	*/
+#person1 {
+	background-image: url("../images/HomePage/Person4.jpg");
+}
+
+#person2 {
+	background-image: url("../images/HomePage/Person5.jpg");
+}
+
+#person3 {
+	background-image: url("../images/HomePage/Person6.jpg");
+}
+
+/*	----------------------------------------- ABOUT US -----------------------------------------	*/
+#aboutUsBillboard {
+	height: 100%;
+	width: 100%;
+	
+	background-image: url("../images/AboutUs/IbexGoat.jpg");
+	background-color: rgba(255, 255, 255, 0.1);
+	background-blend-mode: lighten;
+}
+
+/*	Goat Explenation	*/
+#goatExplenation {
+	height: 100%;
+	width: 100%;
+	
+	bottom: 10px;
+	
+	background-image: linear-gradient(0deg, rgba(227, 227, 227, 0) 0%, rgba(227, 227, 227,1) 100%),
+    url('../images/AboutUs/GoatSkull.jpg');
+/*
+	background-image: url("../images/AboutUs/GoatSkull.jpg");
+*/
+/*	background-color: rgba(255, 255, 255, 0.85);*/
+	background-blend-mode: lighten;
+}
+
+
+
+/*	Company People	*/
+.teamTitles {
+	min-height: 150px;
+}
+
+#faheemImage {
+	background-image: url("../images/AboutUs/Faheem_Full.jpg");
+}
+
+#wildImage {
+	background-image: url("../images/AboutUs/Wild_Full.jpg");
+}
+
+#albertImage {
+	background-image: url("../images/AboutUs/Albert_Full.jpg");
+}
+
+#raunakImage {
+	background-image: url("../images/AboutUs/Raunak.JPG");
+}
+
+/*	----------------------------------------- TUSK -----------------------------------------	*/
+#tuskBillboard_1 {
+	background-image: url("../images/Tusk/Tusk_0.jpg");
+}
+
+#tuskBillboard_2 {
+	background-image: url("../images/Tusk/Tusk_1.jpg");
+}
+
+#tuskBillboard_3 {
+	background-image: url("../images/Tusk/Tusk_2.jpg");
+}
+
+.tableCircle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #ECECE7;
+}
+
+/*	----------------------------------------- IBEX -----------------------------------------	*/
+#ibexComingBillboard {
+	height: 100%;
+	width: 100%;
+	
+	background-image: url("../images/Ibex/IBEX_Preview.png");
+	background-color: rgba(255, 255, 255, 0.5);
+	background-blend-mode: lighten;
+}

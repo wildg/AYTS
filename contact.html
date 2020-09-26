@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AYTS - Contact</title>
+<link rel="icon" href="images/Logos/AYTS_Logo_Black.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<!-- Stylesheets -->
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="css/elements.css" rel="stylesheet">
+
+<!-- Javascript files -->
+<script src="js/jquery-3.4.1.min.js"></script>
+	
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+</head>
+
+<body>
+
+<header class="dflex-col halfScreen px-4 py-2 m-0">
+	
+	<div class="dflex-row">
+		
+		<div class="dflex-left w-25 dropMenuToggle" onClick="$('.dropMenu').toggleClass('display-off');">
+			<div class="dflex-col dropDown">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		
+		<div class="w-50 dflex-col">
+			<a href="index.html" id="headerLogo" class="bgImg-contain aytsLogo-black"></a>
+		</div>
+		
+		<div class="w-25"></div>
+		
+	</div>
+	
+	<div class="dropMenu display-off mt-2">
+		
+		<div class="dflex-col titleFont f-0 c-black bg-transparent">
+			<a href="ibex.html" class="my-2">IBEX</a>
+			<a href="tusk.html" class="my-2">TUSK</a>
+			<a href="B2B.html" class="my-2">B2B</a>
+			<a href="aboutUs.html" class="my-2">ABOUT</a>
+			<a href="contact.html" class="my-2">CONTACT</a>
+			<a href="invest.html" class="my-2">INVEST</a>
+			<a href="pdfs/mediaPackage.pdf" class="my-2">MEDIA</a>
+
+			<div class="my-2">
+				<a id="IGG_logos" href="" target="_blank" class="dflex-col">
+					<img id="IGG_black" src="images/Logos/IGG_Black.png" class="position-absolute" alt="IndieGoGo">
+					<img id="IGG_pink" src="images/Logos/IGG_Pink.png" class="position-relative" alt="IndieGoGo">
+				</a>
+			</div>
+		</div>
+		
+	</div>
+	
+</header>
+	
+<header class="dflex-row fullscreen px-4 py-2 m-0">
+	
+	<div class="dflex-left w-25">
+		<a href="index.html" id="headerLogo" class="bgImg-contain aytsLogo-black"></a>
+	</div>
+	
+	<div class="dflex-right w-75 titleFont f-0 c-black bg-transparent">
+		<a href="ibex.html" class="mx-3 dflex-col headerLink">IBEX</a>
+		<a href="tusk.html" class="mx-3 dflex-col headerLink">TUSK</a>
+		<a href="B2B.html" class="mx-3 dflex-col headerLink">B2B</a>
+		<a href="aboutUs.html" class="mx-3 dflex-col headerLink">ABOUT</a>
+		<a href="contact.html" class="mx-3 dflex-col headerLink">CONTACT</a>
+		<a href="invest.html" class="mx-3 dflex-col headerLink">INVEST</a>
+		<a href="pdfs/mediaPackage.pdf" class="mx-3 dflex-col headerLink">MEDIA</a>
+
+		<a id="IGG_logos" href="" target="_blank" class="dflex-col">
+			<img id="IGG_black" src="images/Logos/IGG_Black.png" class="position-absolute" alt="IndieGoGo">
+			<img id="IGG_pink" src="images/Logos/IGG_Pink.png" class="position-relative" alt="IndieGoGo">
+		</a>
+	</div>
+	
+</header>
+	
+<section>
+	<div class="p-5 c-black bg-transparent">
+		
+		<div class="dflex-col w-100 mt-5 mb-2">
+			<p class="titleFont f-5">Get in touch with us.</p>
+		</div>
+		
+		<div class="contact-form scalingPadding">
+			<form id="contact-form" method="post" action="contact-sender.php">
+				
+				<span class="titleFont f-0">NAME OF INDIVIDUAL</span>
+				<input name="name" type="text" class="form-control mt-2 subFont" placeholder="Jane Doe" required>
+				<br>
+				
+				<span class="titleFont f-0">EMAIL ADDRESS</span>
+				<input name="email" type="email" class="form-control mt-2 subFont" placeholder="jane.doe@industries.com" required>
+				<br>
+				
+				<span class="titleFont f-0">QUERY</span>
+				<textarea name="message" class="form-control mt-2 subFont" placeholder="Write your message here" row="5" required></textarea>
+				<br>
+				
+				<input type="submit" class="submit fauxButton mt-2 titleFont" value="Submit">
+				
+			</form>
+		</div>
+		
+	</div>
+</section>
+
+<footer class="dflex-row c-white p-4">
+	<div class="w-100 row m-0 p-1">
+		
+		<div class="col-md-3 w-100 p-1">
+			<div class="dflex-left m-0 w-100 pb-4">
+				<img class="img-fluid" src="images/Logos/AYTS_Logo_Black.png" style="max-width: 50px">
+			</div>
+			<div class="dflex-left subFont f-0 c-black bg-transparent w-100 pr-5">
+				Ayts Technologies Inc. © 2020
+				<br>
+				All rights reserved
+			</div>
+		</div>
+		
+		<div class="col-md-9 w-100 c-black bg-transparent p-0 m-0">
+		  <div class="row w-100 m-0 p-0">
+				
+				<!--	Products & Services	-->
+				<div class="col-md-3 dflex-top p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Products & Services
+					</div>
+					
+					<a href="ibex.html" class="w-100 subFont dflex-left f-0">IBEX</a>
+					<a href="tusk.html" class="w-100 subFont dflex-left f-0">TUSK</a>
+					<a href="B2B.html" class="w-100 subFont dflex-left f-0">B2B</a>
+					<a href="" class="w-100 subFont dflex-left f-0">IndieGoGo</a>
+				</div>
+				
+				<!--	Company	-->
+				<div class="col-md-3 dflex-top p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Company
+					</div>
+					
+					<a href="aboutUs.html" class="w-100 subFont dflex-left f-0">About</a>
+					<a href="contact.html" class="w-100 subFont dflex-left f-0">Contact</a>
+					<a href="invest.html" class="w-100 subFont dflex-left f-0">Invest</a>
+				</div>
+
+				<!--	Updates	-->
+				<div class="col-md-3 dflex-top m-0 p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Updates
+					</div>
+					
+					<a href="terms.html" class="w-100 subFont dflex-left f-0">Terms of Service</a>
+					<a href="privacy.html" class="w-100 subFont dflex-left f-0">Privacy Policy</a>
+				</div>
+				
+				<!--	Follow	-->
+				<div class="col-md-3 dflex-top p-1">
+					
+					<div class="w-100 titleFont font-weight-bold f-0 dflex-left">
+						Follow us
+					</div>
+					
+					<div class="dflex-left">
+						<a href="https://www.instagram.com/ayts.ca/" target="_blank">
+							<img src="icons/instagram.svg" class="m-1" width="40px" height="40px" alt="Instagram">
+						</a>
+
+						<a href="" target="_blank">
+							<img src="icons/facebook.svg" class="m-1" width="40px" height="40px" alt="Facebook">
+						</a>
+					</div>
+					
+					<div class="dflex-left">
+						<a href="" target="_blank">
+							<img src="icons/youtube.svg" class="m-1" width="40px" height="40px" alt="Youtube">
+						</a>
+
+						<a href="https://www.linkedin.com/company/aytsca/" target="_blank">
+							<img src="icons/linkedIn.svg" class="m-1" width="40px" height="40px" alt="LinkedIn">
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</footer>
+	
+</body>
+</html>
