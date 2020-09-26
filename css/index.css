@@ -48,6 +48,11 @@
 	opacity: 0;
 }
 
+#canada-img {
+	opacity: 0.1;
+	height: 600px;
+}
+
 .story-img {
 	width: auto;
 	height: 250px;
