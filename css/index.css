@@ -45,11 +45,20 @@
 	height: 300px;
 	
 	position: relative;
+	opacity: 0.08;
+}
+
+.nums-txt {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	height: 250px;
 	opacity: 0;
 }
 
 #canada-img {
-	opacity: 0.1;
+	opacity: 1;
 	height: 600px;
 }
 
@@ -62,7 +71,7 @@
 
 @media only screen and (max-width: 1200px) {
 	.nums-img {
-		height: 200px;
+		height: 250px;
 	}
 	
 	.story-img {

@@ -1,12 +1,12 @@
-
 $("#nums-section").waypoint( function() {
     anime({
-        targets: ".nums-img",
+        targets: ".nums-txt",
         easing: 'easeOutBack',
         delay: anime.stagger(400),
         keyframes: [
             {translateX: -50, duration: 0},
-            {translateX: 0, opacity: 0.1, duration: 700},
+            // {translateX: 0, opacity: 0.1, duration: 700},
+            {translateX: 0, opacity: 1, duration: 700},
         ]
     });
     this.destroy();
