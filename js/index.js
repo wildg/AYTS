@@ -38,15 +38,15 @@ $('.tuskSpin').spritespin({
     ]
 });
 
-$('.ibexSpin').spritespin({
-    source: ["images/IBEX_360/1.jpg", "images/IBEX_360/8.jpg", "images/IBEX_360/16.jpg", "images/IBEX_360/24.jpg", "images/IBEX_360/32.jpg", "images/IBEX_360/40.jpg", "images/IBEX_360/48.jpg", "images/IBEX_360/56.jpg", "images/IBEX_360/64.jpg", "images/IBEX_360/72.jpg", "images/IBEX_360/80.jpg", "images/IBEX_360/88.jpg", "images/IBEX_360/96.jpg", "images/IBEX_360/104.jpg", "images/IBEX_360/112.jpg", "images/IBEX_360/120.jpg", "images/IBEX_360/128.jpg", "images/IBEX_360/136.jpg", "images/IBEX_360/144.jpg"],
-    sense: 1.5,
-    detectSubsampling : false,
-    responsive: true,
-    wrap: true,
-    animate: false,
-    plugins: [
-        '360',
-        'move'
-    ]
-});
+// $('.ibexSpin').spritespin({
+//     source: ["images/IBEX_360/1.jpg", "images/IBEX_360/8.jpg", "images/IBEX_360/16.jpg", "images/IBEX_360/24.jpg", "images/IBEX_360/32.jpg", "images/IBEX_360/40.jpg", "images/IBEX_360/48.jpg", "images/IBEX_360/56.jpg", "images/IBEX_360/64.jpg", "images/IBEX_360/72.jpg", "images/IBEX_360/80.jpg", "images/IBEX_360/88.jpg", "images/IBEX_360/96.jpg", "images/IBEX_360/104.jpg", "images/IBEX_360/112.jpg", "images/IBEX_360/120.jpg", "images/IBEX_360/128.jpg", "images/IBEX_360/136.jpg", "images/IBEX_360/144.jpg"],
+//     sense: 1.5,
+//     detectSubsampling : false,
+//     responsive: true,
+//     wrap: true,
+//     animate: false,
+//     plugins: [
+//         '360',
+//         'move'
+//     ]
+// });
