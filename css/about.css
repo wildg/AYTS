@@ -1,5 +1,7 @@
 .inline-logo {
-	width: 83px;
+	/*width: 83px;*/
+	height: 100px;
+	margin-top: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
