@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="164a0534-ff3a-45d6-93de-5d2ac0f489f9" name="Default Changelist" comment="New">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B2B.html" beforeDir="false" afterPath="$PROJECT_DIR$/B2B.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gifs/PG5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/gifs/PG5.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gifs/PG5_Downsize.gif" beforeDir="false" afterPath="$PROJECT_DIR$/gifs/PG5_Downsize.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gifs/PG5_new.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gifs/TUSK END.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gifs/TUSK END2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gifs/TUSK END_Downsize.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gifs/TUSK-END2_Downsize.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibex.html" beforeDir="false" afterPath="$PROJECT_DIR$/ibex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invest.html" beforeDir="false" afterPath="$PROJECT_DIR$/invest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tusk.html" beforeDir="false" afterPath="$PROJECT_DIR$/tusk.html" afterDir="false" />
-    </list>
+    <list default="true" id="164a0534-ff3a-45d6-93de-5d2ac0f489f9" name="Default Changelist" comment="New" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +39,7 @@
       <workItem from="1601321399200" duration="888000" />
       <workItem from="1601579500198" duration="873000" />
       <workItem from="1601657974334" duration="352000" />
-      <workItem from="1601764812875" duration="6273000" />
+      <workItem from="1601764812875" duration="6727000" />
     </task>
     <servers />
   </component>

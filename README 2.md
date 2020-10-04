@@ -1,2 +1,0 @@
-# AYTS
-AYTS' Website
