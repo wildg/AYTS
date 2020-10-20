@@ -128,6 +128,10 @@ a:hover {
 	color: #018BF4;
 }
 
+.c-yellow {
+	color: #FEF357;
+}
+
 .c-img-blue,
 .c-img-green {
 	background-image: url("../images/General/textBg-Blue.jpg");
@@ -140,8 +144,9 @@ a:hover {
 	background-position: center top;
 }
 
+/* TODO Add green background */
 .c-img-green {
-	background-image: url("../images/General/textBg-Green.png");
+/*	ADD HERE  */
 }
 
 a.c-dark-grey:hover {
@@ -542,8 +547,11 @@ footer {
 }
 
 .counter-0,
+.counter-25,
 .counter-33,
+.counter-50,
 .counter-66,
+.counter-75,
 .counter-100 {
 	display: flex;
 	flex-direction: column;
@@ -565,6 +573,18 @@ footer {
 
 .counter-66 {
 	right: 33%;
+}
+
+.counter-25 {
+	left: 25%;
+}
+
+.counter-50 {
+	left: 50%;
+}
+
+.counter-75 {
+	left: 75%;
 }
 
 .counter-100 {
