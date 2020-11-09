@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="164a0534-ff3a-45d6-93de-5d2ac0f489f9" name="Default Changelist" comment="New">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B2B.html" beforeDir="false" afterPath="$PROJECT_DIR$/B2B.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tusk.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tusk.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibex.html" beforeDir="false" afterPath="$PROJECT_DIR$/ibex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Tusk/TUSK_Slides-19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/general.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/invest-sender.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tusk.html" beforeDir="false" afterPath="$PROJECT_DIR$/tusk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +61,7 @@
       <workItem from="1603519041747" duration="380000" />
       <workItem from="1603563808198" duration="2891000" />
       <workItem from="1603647841185" duration="4435000" />
-      <workItem from="1604871427728" duration="18979000" />
+      <workItem from="1604871427728" duration="19299000" />
     </task>
     <servers />
   </component>
