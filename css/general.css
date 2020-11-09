@@ -310,6 +310,15 @@ a.c-blue:hover {
 	background-position: center;
 }
 
+.bgImg-contain-center {
+	width: 100%;
+	height: 100%;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .bgImg-cover-top {
 	width: 100%;
 	height: 100%;
@@ -369,11 +378,16 @@ header {
 	
 	padding: 0.5em 1em;
 	
-	z-index: 999;
+	z-index: 1000002;
+}
+
+.actual-header {
+	height: 50px;
 }
 
 .headerWhiteSpace {
-	height: 56px;
+	height: 65px;
+	background-color: red
 }
 
 .header-logo {
@@ -402,28 +416,37 @@ header {
 	font-weight: bold;
 }
 
-.IGG_wrap:hover .IGG_Pink,
-.IGG_wrap:hover .IGG_Funded_White{
-	display: block;
+/*.shoppingBag {*/
+/*	width: 1em;*/
+/*}*/
+
+.shoppingBag {
+	position: relative;
+	width: 40px;
 }
 
-.IGG_wrap:hover .IGG_Black,
-.IGG_wrap:hover .IGG_Funded_Red {
-	display: none;
+.shoppingBag img {
+	width: 36px;
+	height: 30px;
 }
 
-.IGG_Black, .IGG_Pink {
-	width: 100px;
+@media only screen and (max-width: 413px) {
+	.shoppingBag img {
+		width: 24px;
+		height: 24px;
+	}
 }
 
-.IGG_Funded_Red, .IGG_Funded_White {
-	width: 50%;
-	max-width: 400px;
+.ec-cart-widget {
+	position: absolute;
+	width: 40px;
 }
 
-.IGG_Pink, .IGG_Funded_White {
-	display: none;
-}
+/*.icon-default {*/
+/*	background-color: red !important;*/
+/*	width: 35px !important;*/
+/*	height: 35px !important;*/
+/*}*/
 
 #header-burger div {
 	width: 40px;
@@ -537,7 +560,7 @@ footer {
 }
 
 .counterFill {
-	background-color: #48845E;
+	background-color: #4169e1;
 	height: 5px;
 	position: absolute !important;
 }

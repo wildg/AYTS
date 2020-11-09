@@ -11,7 +11,7 @@ function dropdownOpen() {
     anime({
         targets: "#header-dropdown",
         easing: 'easeOutBack',
-        height: 450,
+        height: 350,
         duration: 200
     });
 
@@ -120,22 +120,21 @@ $(".fadeIn-Right").waypoint(function() {
     this.destroy();
 }, {offset: "80%"});
 
-$(".fill").waypoint( function() {
+$(".counterEmpty").waypoint( function() {
     anime({
-        targets: this.element,
+        targets: this.element.querySelectorAll('.oneHalf'),
         easing: 'linear',
-        delay: 400,
-        background: "#48845E",
+        width: "50%",
+        duration: 700
+    })
+
+    anime({
+        targets: this.element.querySelectorAll('.fill'),
+        easing: 'linear',
+        delay: anime.stagger(400),
+        // delay: 400,
+        background: "#4169e1",
         borderWidth: "0",
         duration: 300
     });
 }, {offset: "90%"});
-
-$(".oneThird").waypoint( function() {
-    anime({
-        targets: this.element,
-        easing: 'linear',
-        width: "33%",
-        duration: 700
-    })
-}, {offset: "93%"});

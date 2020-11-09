@@ -10,7 +10,7 @@ $("#nums-section").waypoint( function() {
         ]
     });
     this.destroy();
-}, {offset: "75%"});
+}, {offset: "65%"});
 
 $("#story-section").waypoint( function() {
     anime({
@@ -23,7 +23,7 @@ $("#story-section").waypoint( function() {
         ]
     });
     this.destroy();
-}, {offset: "75%"});
+}, {offset: "65%"});
 
 $('.tuskSpin').spritespin({
     source: ["images/TUSK_360/1.jpg", "images/TUSK_360/10.jpg", "images/TUSK_360/20.jpg", "images/TUSK_360/30.jpg", "images/TUSK_360/40.jpg", "images/TUSK_360/50.jpg", "images/TUSK_360/60.jpg", "images/TUSK_360/70.jpg", "images/TUSK_360/80.jpg", "images/TUSK_360/90.jpg", "images/TUSK_360/100.jpg", "images/TUSK_360/110.jpg", "images/TUSK_360/120.jpg", "images/TUSK_360/130.jpg", "images/TUSK_360/140.jpg", "images/TUSK_360/150.jpg", "images/TUSK_360/160.jpg", "images/TUSK_360/170.jpg"],
