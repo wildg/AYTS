@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AYTS.iml" filepath="$PROJECT_DIR$/.idea/AYTS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ayts.webflow.iml" filepath="$PROJECT_DIR$/.idea/ayts.webflow.iml" />
     </modules>
   </component>
 </project>
