@@ -24,4 +24,5 @@
 	                    "We will get back to you shortly.";
 
 	mail($email, $email_subject_sender, $email_body_sender, $header_sender);
+	header("Location: ../b2b.html");
 ?>
